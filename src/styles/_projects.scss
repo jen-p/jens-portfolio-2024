@@ -1,47 +1,59 @@
 .projectList {
-	&.list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
     .projectCardWrapper {
-		
-  		display: flex;
-		width: 50%;
-		border: solid red 1px;
-      	margin: 80px 0;
+		width: 48%;
+      	margin: 25px 0;
   	}
     .projectCard {
-      h2, p {
-				margin: 0;
-				padding: 0;
-			}
-			p {
-				padding: 5px 0 10px 0;
-			}
+      	h2, p {
+			margin: 0;
+			padding: 0;
+		}
+		p {
+			padding: 5px 0 10px 0;
+		}
     }
     .projectHero {
-      box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
-      border-radius: 10px;
-			transition: box-shadow ease .5s;
-			&:hover {
-				 box-shadow: 0 8px 8px 0 rgba(24,24,24,0.25);
-				 transition: box-shadow ease .5s;
-			}
-    }
-  }
-	&.cards {
+      	box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
+     	border-radius: 5px;
+		transition: box-shadow ease .5s;
+		aspect-ratio: 4 / 3;
+		overflow: hidden;
+		object-fit: cover;
 		display: flex;
+		justify-content: center;
+
+		&:hover {
+			box-shadow: 0 8px 8px 0 rgba(24,24,24,0.25);
+			transition: box-shadow ease .5s;
+		}
+		.heroImage {
+			margin-bottom: -10px;
+			height: 100%;
+			width: auto;
+		}
+    }
+  
+	&.cards {
 		.project-card-wrapper {
 			width: 30%;
 			padding: 4px;
+
 			.project-card {
 				border-radius: 10px;
+
 				h2, p {
-	        padding: 0 12px;
-	      }
+					padding: 0 12px;
+				}
 			}
 		}
 	}
 	img {
 		border-radius: 10px;
-
 	}
 }
 
@@ -50,9 +62,11 @@
 		position: relative;
 		max-height: 450px;
 		overflow: hidden;
-		.hero-image {
-			height: 100%;
-			width: auto;
+		margin-top: 50px;
+
+		.heroImage {
+			width: 100%;
+			height: auto;
 		}
 	}
 	.projectTitle {
@@ -60,12 +74,16 @@
 			margin-bottom: 0;
 			padding-bottom: 0;
 		}
-		.client, .projectDSate {
+		.client, .projectDate {
 			color: $gray;
 			font-size: $fs-sm;
 			margin-top: 0;
 			line-height: $lh-sm;
 			margin-left: 1px;
 		}
+	}
+	img {
+		width: 100%;
+		height: auto;
 	}
 }

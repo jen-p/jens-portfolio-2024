@@ -14,14 +14,16 @@ const Whoami = () => (
         <div className="whatdo">
           <h1>I am a product designer specializing in systems design for healthcare</h1>
         </div>
-        <div className="project-list list">
+        <div className="projectList">
           {projectList.map((project) => {
             return (
               <ProjectCard
                 key={project.title}
                 link={project.link}
                 desc={project.desc}
-                image={project.hero}
+                hero={project.hero}
+                w={project.w}
+                h={project.h}
                 title={project.title}>
               </ProjectCard>
             )

@@ -24,7 +24,6 @@ header, footer {
 }
 
 .container {
-	border: 1px solid purple;
 	margin: 0 auto;
 	max-width: 1000px;
 	.section {
@@ -37,10 +36,11 @@ header {
 	top: 0;
 	left: 0;
 	margin: 0 auto;
-	height: 44px;
+	height: 50px;
 	width: 100%;
 	z-index: 2;
 	background: $bg-lighter;
+	opacity: 90%;
 	.header-wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -90,6 +90,11 @@ hr {
 }
 
 .whatdo {
-	margin: 20vh 0;
+	margin: 15vh 0;
 	font-size: $fs-h1xl;
+}
+
+img {
+	.w-full {}
+	.h-full {}
 }

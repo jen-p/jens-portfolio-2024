@@ -1,5 +1,4 @@
 import React from 'react'
-//import MyImage from '../../components/myImage.js'
 import Link from 'next/link'
 import Image from 'next/image'
 import ProjectLayout from '../../components/project-layout'
@@ -12,7 +11,7 @@ const Page = () => (
 
         <h2>Background</h2>
         <p>Diabetes treatment and insulin titration for dosages are typically arrived at using paper-based sliding scales, chasing blood glucose levels, leading to a roller coaster of unstable blood sugar levels for patients with diabetes, complicating co-morbidities or causing hyper- or hypoglycemia, potentially permanently debilitating or even fatal conditions.</p>
-        <p>It's no secret that looking at a patient's history of readings and life measurements pave the path for personalized medicine. Which is how it should be, because medical care is not one size fits all. We might be able take those readings, patient-reported outcomes, and measurements from everyday life, and then deliver accurate treatment recommendations, which the patient's provider could then use to offer care tailored to that person and their specific needs.</p>
+        <p>It's no secret that looking at a patient's history of readings and life measurements pave the path for personalized medicine. As it should be, since medical care is not one size fits all. We might be able take those readings, patient-reported outcomes, and measurements from everyday life, and then deliver accurate treatment recommendations, which the patient's provider could then use to offer care tailored to that person and their specific needs.</p>
 
         <div class="case-study-section">
           <h2>Process</h2>

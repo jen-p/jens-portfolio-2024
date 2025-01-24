@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from './layout'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -6,6 +6,7 @@ import projects from "../data/projects"
 import styles from "../styles/main.scss";
 
 const ProjectLayout = (props) => {
+  const [id, setId] = useState(() => projects.find(project => project.id === props.id))
 
   /*constructor(props) {
     super(props)
@@ -16,20 +17,21 @@ const ProjectLayout = (props) => {
     }
   }*/
 
-  const id = projects.find(project => project.id)
+  // const id = projects.find(project => project.id === props.id)
+  console.log("id", id)
   
     return (
       <Layout>
-        <div className="project-page">
-          <div className="project-hero">
-            <Image className="hero-image" filename={id.hero} />
+        <div className="projectPage">
+          <div className="projectHero">
+          <Image src={id.hero} height={id.h} width={id.w} className="heroImage" />
           </div>
-          <div className="container project-title">
+          <div className="container projectTitle">
             <h1 className="title">{id.title}</h1>
             <p className="client">{id.client}</p>
-            <p className="project-date">{id.date}</p>
+            <p className="projectDate">{id.date}</p>
           </div>
-          <div className="case-study-content">
+          <div className="caseStudyContent">
             {props.children}
           </div>
         </div>

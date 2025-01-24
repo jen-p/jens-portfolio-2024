@@ -10,18 +10,18 @@ $mq-breakpoints: (
   extra-large: $bp-xl,
 );
 
-$font-family: 'Source Sans', 'Arial', sans-serif;
-$font-title: 'Merriweather', serif;
-$fs-sm: .8rem;
-$fs-base: 1.1rem;
+$font-family: 'Source Sans 3', 'Arial', sans-serif;
+$font-title: 'Source Serif 4', serif;
+$fs-sm: 1rem;
+$fs-base: 1.2rem;
 $fs-h1xl: 4rem;
-$fs-h1: 3rem;
+$fs-h1: 2.5rem;
 $fs-h2: 2rem;
 $fs-h3: 1.5rem;
 $lh-base: 1.625rem;
 $lh-md: 1.8rem;
 $lh-sm: 1.25rem;
-$lh-h1: 5rem;
+$lh-h1: 3.5rem;
 $lh-h2: 3rem;
 $lh-h3: 2rem;
 $fw-light: 300; //for title font
@@ -32,7 +32,7 @@ body {
   font-family: $font-family;
   font-size: $fs-base;
   line-height: $lh-base;
-  font-weight: $fw-normal;
+  font-weight: $fw-light;
 }
 
 h1, h2, h3 {
