@@ -1,0 +1,7 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/work/diabetes-treatment-tools": "pages/work/diabetes-treatment-tools.js",
+  "/": "pages/index.js"
+}
