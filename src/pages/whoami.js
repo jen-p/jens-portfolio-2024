@@ -1,9 +1,9 @@
 import React from 'react'
-//import { Link } from 'gatsby'
+import Link from 'next/link'
+import Image from 'next/image'
 
+import styles from "../styles/main.scss"
 import Layout from '../components/layout'
-//import Hero from '../components/hero'
-import MyImage from '../components/myImage.js'
 
 const Whoami = () => (
   <Layout>

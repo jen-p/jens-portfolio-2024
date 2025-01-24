@@ -1,0 +1,17 @@
+.whoami {
+    margin-top: 80px;
+}
+
+.ethos, .skills, .edu {
+  h2 {
+    margin-bottom: 20px;
+    line-height: 1rem;
+  }
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+    li {
+        list-style: none;
+    }
+  }
+}
