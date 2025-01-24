@@ -1,0 +1,95 @@
+$bp-small: 420px;
+$bp-medium: 720px;
+$bp-large: 1080px;
+$bp-xl: 1400px;
+
+$mq-breakpoints: (
+  small: $bp-small,
+  medium: $bp-medium,
+  large: $bp-large,
+  extra-large: $bp-xl,
+);
+
+body {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+header, footer {
+	width: 100%;
+	position: relative;
+}
+
+.container {
+	border: 1px solid purple;
+	margin: 0 auto;
+	max-width: 1000px;
+	.section {
+		margin: 40px 0;
+	}
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	height: 44px;
+	width: 100%;
+	z-index: 2;
+	background: $bg-lighter;
+	.header-wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	.name, .header-nav {
+		display: inline-block;
+	}
+	.name {
+		padding-top:10px;
+		a {
+		color: $gray;
+		}
+	}
+	.header-nav {
+    	padding: 10px 0 10px 18px;
+		text-align: right;
+		a {
+		padding: 9px 0;
+		margin-left: 25px;
+		text-decoration: none;
+		font-weight: $fw-bold;
+		}
+  }
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 0;
+  height: 50px;
+  p {
+    margin: 0;
+    text-align: right;
+    font-size: $fs-sm;
+  }
+	color: $gray;
+	.copyright {
+		padding: 5px 0;
+	}
+}
+
+hr {
+	border: solid 1px $gray-border;
+}
+
+.button-group {
+		margin: 40px 0;
+}
+
+.whatdo {
+	margin: 20vh 0;
+	font-size: $fs-h1xl;
+}

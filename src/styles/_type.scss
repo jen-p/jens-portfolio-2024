@@ -1,0 +1,111 @@
+$bp-small: 420px;
+$bp-medium: 720px;
+$bp-large: 1080px;
+$bp-xl: 1400px;
+
+$mq-breakpoints: (
+  small: $bp-small,
+  medium: $bp-medium,
+  large: $bp-large,
+  extra-large: $bp-xl,
+);
+
+$font-family: 'Source Sans', 'Arial', sans-serif;
+$font-title: 'Merriweather', serif;
+$fs-sm: .8rem;
+$fs-base: 1.1rem;
+$fs-h1xl: 4rem;
+$fs-h1: 3rem;
+$fs-h2: 2rem;
+$fs-h3: 1.5rem;
+$lh-base: 1.625rem;
+$lh-md: 1.8rem;
+$lh-sm: 1.25rem;
+$lh-h1: 5rem;
+$lh-h2: 3rem;
+$lh-h3: 2rem;
+$fw-light: 300; //for title font
+$fw-normal: 400;
+$fw-bold: 600;
+
+body {
+  font-family: $font-family;
+  font-size: $fs-base;
+  line-height: $lh-base;
+  font-weight: $fw-normal;
+}
+
+h1, h2, h3 {
+  font-family: $font-title;
+  font-weight: $fw-light;
+}
+h1 {
+  font-size: $fs-h1;
+  line-height: $lh-h1;
+  @include mq($until: $bp-medium) {
+    font-size: $fs-h2;
+    line-height: $lh-h2;
+  }
+}
+h2 {
+  font-size: $fs-h2;
+  line-height: $lh-h2;
+  margin-top: 3rem;
+  margin-bottom: -.5rem;
+  @include mq($until: $bp-medium) {
+    font-size: $fs-h3;
+    line-height: $lh-h3;
+  }
+}
+h3 {
+  font-size: $fs-h3;
+  line-height: $lh-h3;
+  margin-top: 2rem;
+}
+h4 {
+  font-family: $font-family;
+  font-size: $fs-base;
+  line-height: $lh-base;
+  font-weight: $fw-bold;
+  margin-top: 2rem;
+  margin-bottom: -.7rem;
+}
+
+p {
+  max-width: 980px;
+  font-size: $fs-base;
+  line-height: $lh-md;
+  margin-bottom: 2rem;
+}
+
+a, a:visited {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: $purple;
+		cursor: pointer;
+	}
+  &.button {
+    color: $purple;
+    border: 2px $purple solid;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 4px;
+    &:hover {
+      text-decoration: none;
+      background: $light-purple;
+    }
+  }
+}
+
+a.external {
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 0;
+}
+
+strong {
+  font-weight: $fw-bold;
+}

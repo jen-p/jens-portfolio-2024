@@ -1,0 +1,31 @@
+$not-black: #181818;
+$gray: #8F8F8F;
+$purple: #895A9D;
+$light-purple: #E6DCEA;
+$gray-border: #C4C4C4;
+$bg-light: #F4F4F4;
+$bg-lighter: #FAFAFA;
+$accent: #54D6FF;
+
+.daylight {
+  background: $bg-lighter;
+}
+
+.midnight {
+
+}
+
+body {
+  background: $bg-lighter;
+  color: $not-black;
+}
+
+a, a:visited, a:hover {
+	color: $not-black;
+}
+
+.header-nav {
+  a.header-nav__link--active {
+    border-bottom: solid $not-black 3px;
+  }
+}

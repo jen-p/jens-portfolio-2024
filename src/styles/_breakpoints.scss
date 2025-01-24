@@ -1,0 +1,20 @@
+$bp-small: 420px;
+$bp-medium: 720px;
+$bp-large: 1080px;
+$bp-xl: 1400px;
+
+$mq-breakpoints: (
+  small: $bp-small,
+  medium: $bp-medium,
+  large: $bp-large,
+  extra-large: $bp-xl,
+);
+
+/*@use 'mq' as * with (
+  $breakpoints: (
+    mobile:  $bp-small,
+    tablet: $bp-medium,
+    desktop: $bp-large,
+    wide: $bp-xl,
+  )
+);*/
