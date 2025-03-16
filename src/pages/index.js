@@ -1,8 +1,8 @@
 import React from 'react'
+
 import ProjectCard from "../components/projectCard"
 import projectList from "../data/projects"
-import styles from "../styles/main.scss";
-
+import styles from "../styles/main.scss"
 import Layout from '../components/layout'
 //import Hero from '../components/hero'
 
