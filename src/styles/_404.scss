@@ -1,0 +1,14 @@
+.not-found-page {
+    margin-top: 80px;
+
+    .image-container {
+        max-width: 100%;
+    }
+    
+    .not-found-image {
+        width: 100%;
+        margin:  0 auto;
+        object-fit: contain;
+        height: auto;
+    }
+}

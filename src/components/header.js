@@ -19,7 +19,7 @@ const Header = () => {
 
   
     const navItems = [
-      { link: './', title: 'Work' },
+      { link: '/', title: 'Work' },
       { link: '/whoami/', title: 'Who Am I?' }
     ]
 
