@@ -103,9 +103,35 @@ a.external {
 }
 
 ul {
-  margin-top: 0;
+  margin-top: -20px;
+  margin-left: -20px;
+  list-style-position: outside;
+  li {
+      
+  }
+}
+
+ol {
+  margin-left: -20px;
+  list-style-position: outside;
+  li {
+
+  }
 }
 
 strong {
   font-weight: $fw-bold;
+}
+
+sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+  font-size: .6em;
+}
+
+.caption {
+  font-size: $fs-sm;
+  line-height: $lh-sm;
+  color: $gray;
 }

@@ -14,7 +14,7 @@ const Page = () => (
         <Button text="GitHub" link="https://github.com/goinvo/EHR " />
       </div>
       <p>Electronic health records (EHRs) were originally designed to help with medical billing, and are typically plagued with clumsy interfaces, poorly designed information hierarchy, and cumbersome workflows, all of which distance clinicians from quality patient care. In most cases, these systems are set up for failure —clinicians burnout and patients' lives are put at risk. With a team of physicians, nurses, health IT, and HCI experts, as a designer at GoInvo, I designed, coded, and became a co-author on an open source e-book to distribute ideas, designs, and techniques to health IT and EHR vendors to jumpstart EHR design on a US national level.</p>
-      <h2>Background</h2>
+      <h2>Problem Statement</h2>
       <p>EHRs (electronic health records) today are notoriously difficult to use, though they play a critical role in providing health care across the United States. EHRs historically lacked intuitive interfaces, usable processes, and basic readability. There’s plenty of room for improvement, informed by healthcare processes, human factors principles, and usability design. Jeff Belden, a family physician and professor at the University of Missouri, partnered with GoInvo to share this vision and inspire a change in EHR design standards. With support from the California Healthcare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT, a team of physicians, humans factors and usability experts assembled to take on this challenge.</p>
       <div class="case-study-section">
         <h2>Process</h2>

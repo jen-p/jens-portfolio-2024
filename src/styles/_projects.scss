@@ -76,7 +76,7 @@
 		.client, .projectDate {
 			color: $gray;
 			font-size: $fs-sm;
-			margin-top: 0;
+			margin: 5px 0;
 			line-height: $lh-sm;
 			margin-left: 1px;
 		}
@@ -84,5 +84,25 @@
 	img {
 		width: 100%;
 		height: auto;
+	}
+	.projectStats {
+		display: flex;
+		border-top: solid $gray-border 1px; 
+		margin-top: 20px;
+		padding-top: 20px;
+		.stat {
+			margin-right: 20px; 
+			.statLabel, .statValue {
+				font-size: $fs-sm;
+				margin: 5px 0;
+				line-height: $lh-sm;
+			}
+			.statLabel {
+				color: $gray;
+			}
+			.statValue {
+	
+			}
+		}
 	}
 }
