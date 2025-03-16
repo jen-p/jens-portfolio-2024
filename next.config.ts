@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/your-repository-name/' : '',
-  basePath: isProd ? '/your-repository-name' : '',
+  assetPrefix: isProd ? '/jens-portfolio-2024/' : '',
+  basePath: isProd ? '/jens-portfolio-2024' : '',
   output: 'export',
   eslint: {
     // Warning: This allows production builds to successfully complete even if
