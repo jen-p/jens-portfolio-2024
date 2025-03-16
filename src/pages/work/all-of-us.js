@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import ProjectLayout from '../../components/project-layout'
+import styles from "../../styles/case-study-aou.scss";
 
 const Page = () => (
   <ProjectLayout
@@ -31,7 +32,7 @@ const Page = () => (
 
       <h2>Problem Statement</h2>
       <p>Medical research has a diversity problem. 90% of the U.S. patient population<sup><a href="#references">1</a></sup> aren't involved in research and don't want to think about their health &mdash; until they have to. The <i>All of Us</i> Research Program aimed to enroll 1 million participants to deliver the most diverse medical research database. The program required design focused on the participant experience to enroll and retain the number of participants to achieve their goal. With experience and expertise in health design for humans and shipping research software, we brought this focus to the foreground.<sup><a href="#references">1</a></sup></p>
-      <p>My team supported and designed a digital experience to:</p>
+      <p>Our team supported and designed a digital experience to:</p>
       <ul>
         <li>Provide health surveys and returns of results so that participants from all walks of life can understand.</li>
         <li>Onboard new participants into the <i>All of Us</i> Research Program.</li>
@@ -49,10 +50,12 @@ const Page = () => (
 
       <div class="caseStudySection">
         <h2>Background</h2>
-        <p>The <i>All of Us</i> Research Program, run by the National Institutes of Health (NIH), is a nationwide health study** that aims to collect health data from a diverse group of 1 million or more people living in the United States. The program aims to run for 10 years or more, providing this diverse dataset longitudinally. Every human is unique, with different genes, lifestyles, and living conditions, and circumstances that change over time. The more researchers can learn about what affects people’s health, the better they will be able to drive research that impacts more humans.</p>
-        <p>The program is an ambitious government-funded health research effort with the goal to retain and engage participants long-term. More than a hundred funded partner organizations work together to run the *All of Us* Research Program.<sup><a href="#references">2</a></sup> GoInvo was brought in as a small task force, working as the design team for the PTSC under Vibrent Health to support the digital experience in the <i>All of Us</i> PTSC Participant Portal.</p>
+        <p>The <i>All of Us</i> Research Program, run by the National Institutes of Health (NIH), is a nationwide health study that aims to collect health data from a diverse group of 1 million or more people living in the United States. The program aims to run for 10 years or more, providing this diverse dataset longitudinally. Every human is unique, with different genes, lifestyles, and living conditions, and circumstances that change over time. The more researchers can learn about what affects people’s health, the better they will be able to drive research that impacts more humans.</p>
+        <p>The program is an ambitious government-funded health research effort with the goal to retain and engage participants long-term. More than a hundred funded partner organizations work together to run the <i>All of Us</i> Research Program.<sup><a href="#references">2</a></sup> GoInvo was brought in as a small task force, working as the design team for the PTSC under Vibrent Health to support the digital experience in the <i>All of Us</i> PTSC Participant Portal.</p>
+        
         <Image src="/images/aou/02-where-goinvo-fits-in-the-aou.jpg" height={977} width={2000} alt="" />
         <p className="caption">More than a hundred funded partner organizations work together to run the <i>All of Us</i> Research Program. GoInvo is just a small part of this consortium.</p>
+        
         <p>Participants who join contribute through answering surveys, providing biosamples, sharing electronic health records (EHRs), and more. The program maintains their information and provides de-identified data to researchers. Participants can access the online portal to stay connected with the program and receive results demonstrating the impact of their contributions to the program. PTSC's focus was to provide a digital platform to support participation by delivering surveys, communications, and returns of results. GoInvo facilitated this by focusing on participant's perspectives and needs.</p>
         <iframe width="100%" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fe7diNgM5UANDvlNZrQQlWT%2FCase-Study---All-of-Us%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D428-41589%26viewport%3D-4280%252C575%252C0.57%26t%3DGTLchu6PehP12rr7-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D428%253A41589%26mode%3Ddesign%26hide-ui=1" allowfullscreen></iframe>
       </div>
@@ -60,7 +63,24 @@ const Page = () => (
       <div class="caseStudySection">
         <h2>Process</h2>
         <p>Our day-to-day operations varied to adapt to program priorities, encompassing diverse roles that involved design, project management, user experience expertise, product validation (QA), and collaborative engagement with program consortium stakeholders.</p>
-        <Image src="/images/aou/04-how-we-work.jpg" height={883} width={2000} alt="" />
+        
+        <div className="taskContainer">
+          <div className="tasks">
+            <ul>
+              <li>Lead design</li>
+              <li>Advocate for good user interface techniques</li>
+              <li>Develop program designs / services</li>
+              <li>Product design maintenance</li>
+              <li>The daily work of moving many initiatives forward for <i>All of Us</i></li>
+            </ul>
+          </div>
+          <div className="tasksImage">
+          <Image src="/images/aou/04-how-we-work_2.jpg" height={883} width={1228} alt="50% facilitate UX across participant program, 25% software design, 12% ruser research and testing, 7% BS, 4% overhead management, 2% designing the future of health research" />
+          <p className="caption">Illustration by Parsuree Vatanasirisuk</p>
+          </div>
+        </div>
+        
+        
         <h3>We dive deep to understand the program and the platform.</h3>
         <ol>
           <li>Live the problem (enroll and participate in the program).</li>
@@ -68,16 +88,16 @@ const Page = () => (
           <li>Design shippable solutions (understand and build around program and technical constraints).</li>
         </ol>
 
-        <p>Our team became embedded as user experience designers on *All of Us* Research Program initiatives. We worked on both a strategic and tactical level, collaborating with program (*All of Us*) and product (Vibrent Health) teams, making recommendations on how participants would perceive and use new experiences, and helping to solve issues in translating those experiences into software requirements. With this, we built trust with diverse stakeholders at each step throughout the program. </p>
+        <p>Our team became embedded as user experience designers on <i>All of Us</i> Research Program initiatives. We worked on both a strategic and tactical level, collaborating with program (<i>All of Us</i>) and product (Vibrent Health) teams, making recommendations on how participants would perceive and use new experiences, and helping to solve issues in translating those experiences into software requirements. With this, we built trust with diverse stakeholders at each step throughout the program. </p>
 
         <h4>Lived the experience with a deep dive audit of the participant experience.</h4>
-        <p>We conducted a system-wide review of the participant portal and user feedback to better understand the participant experience. From creating an account, completing consents, answering surveys, we dug into every detail and corner of the portal and developed recommendations along the way. We enrolled, became official participants in the *All of Us* Research Program and learned first hand what an experience of the participant journey could be like, with an understanding that there would be variation under different sets of circumstances.</p>
+        <p>We conducted a system-wide review of the participant portal and user feedback to better understand the participant experience. From creating an account, completing consents, answering surveys, we dug into every detail and corner of the portal and developed recommendations along the way. We enrolled, became official participants in the <i>All of Us</i> Research Program and learned first hand what an experience of the participant journey could be like, with an understanding that there would be variation under different sets of circumstances.</p>
 
         <h4>Got to know the platform (behind the scenes).</h4>
         <p>Based on our expert review, we proposed improvements that would benefit the overall user experience. The recommendations ranged from user interface enhancements such as styling, consistency of interactions, content voice, readability, comprehension, information hierarchy and architecture, and more. In the process, we learned that engineering and policy constraints and operations could be complex and challenging, impacting the feasibility for what could be considered a simple change, like button color. The reality of designing for a national research program is that prioritization and scope of work depend upon funding decisions, and we learned how to design and strategize within that constraint.</p>
 
         <h4>Delivered shippable designs for program initiatives.</h4>
-        <p>We worked closely with Vibrent Health's program and technical teams to support design tasks for *All of Us*, allowing us to learn how the teams implement, develop, and maintain the program and portal &mdash; what’s possible and what’s not. Knowing how the portal delivers experiences to participants, its capabilities and constraints, is crucial when delivering user-friendly and accessible designs that are possible to implement with the resources and timelines provided.</p>
+        <p>We worked closely with Vibrent Health's program and technical teams to support design tasks for <i>All of Us</i>, allowing us to learn how the teams implement, develop, and maintain the program and portal &mdash; what’s possible and what’s not. Knowing how the portal delivers experiences to participants, its capabilities and constraints, is crucial when delivering user-friendly and accessible designs that are possible to implement with the resources and timelines provided.</p>
 
         <Image src="/images/aou/03-portal-dashboard.jpg" height={1313} width={2000} alt="" />
 
@@ -87,8 +107,8 @@ const Page = () => (
         <Image src="/images/aou/06-ui-library.jpg" height={1313} width={2000} alt="" />
         <p className="caption">Styles from <i>All of Us</i> UI library</p>
 
-        <h4>#### Developed cohesive design systems and best practices across the digital experience.</h4>
-        <p>Collaborating with the NIH program and design teams, we developed guidelines to establish and document standards for program-wide visuals. Together, we compiled existing illustrations into an open library of elements so that any designer can reuse ready-made assets to create new graphics for any program materials, aiming for consistency across *All of Us* design, a library which can be used as a repository for new illustration elements that will continue to grow over the life of the program.</p>
+        <h4>Developed cohesive design systems and best practices across the digital experience.</h4>
+        <p>Collaborating with the NIH program and design teams, we developed guidelines to establish and document standards for program-wide visuals. Together, we compiled existing illustrations into an open library of elements so that any designer can reuse ready-made assets to create new graphics for any program materials, aiming for consistency across <i>All of Us</i> design, a library which can be used as a repository for new illustration elements that will continue to grow over the life of the program.</p>
 
         <Image src="/images/aou/07-illustration-assets.jpg" height={1125} width={2000} alt="" />
         <p className="caption">Styles and guidelines from All of Us illustration guide</p>
@@ -101,13 +121,13 @@ const Page = () => (
         <p>We helped to glue conversations and pieces of the experience together, and communicated the overall user experience across different teams, especially in conversations between NIH and Vibrent Health. We became the go-to team to answer most questions about how the program or experience worked.</p>
 
         <h4>Balanced usability, technical, and program needs.</h4>
-        <p>When launching a new activity for participants, GoInvo worked closely with the NIH program and UX strategy teams to understand the initiative goals&emdash; what we are asking participants to do, and what participants need in return. This process includes collaborating with NIH UX on the overall strategy, making recommendations, and helping to define and solidify requirements and priorities. </p>
+        <p>When launching a new activity for participants, GoInvo worked closely with the NIH program and UX strategy teams to understand the initiative goals&mdash; what we are asking participants to do, and what participants need in return. This process includes collaborating with NIH UX on the overall strategy, making recommendations, and helping to define and solidify requirements and priorities. </p>
 
         <p>Based on the accepted requirements and recommendations, our team developed designs that considered not only the best user experience but also data collection completeness, accessibility to participants who are underrepresented in biomedical research (UBR), implementation timeline and resources, and transparency.</p>
 
         <p>Launching a new activity, like a survey, to the participant portal can take several months and up to a year or more. Each survey has to go through the program's institutional review board (IRB) and various NIH leadership approvals. Stakeholders, including researchers, scientists, product owners, UX strategists, designers, and developers, work together on requirements, communication strategies, designs, and more. Once the protocol has been approved, with design and technical strategy set, the activity will go to implementation. We will then review the flow in a testing environment and conduct product validation and debugging before launching to public participants.</p>
 
-        <p>Throughout the process, our role as user experience designers is to **advocate for participants** and **support the best experience while balancing usability against program policy, product constraints, and implementation.</p>
+        <p>Throughout the process, our role as user experience designers is to advocate for participants and support the best experience while balancing usability against program policy, product constraints, and implementation.</p>
 
         <Image src="/images/aou/08_form.jpg" height={1300} width={2000} alt="" />
 
@@ -122,7 +142,7 @@ const Page = () => (
         <p>We developed content guidelines, design guidelines, and a process to help teams deliver returns of results that participants will find valuable. Along with a technical strategy that the PTSC developed, the HTML-based return of results frees the development from the technical constraints common to other parts of the portal.</p>
 
         <h4>Proposed new experiences and designs.</h4>
-        <p>Our team spent time on designing many concepts, some of which didn’t make it into the experience. We wanted to show what the program could be capable of and give stakeholders ideas to share and grow within the program, whether or not they became prioritized projects.</p>
+        <p>Our team spent time on designing many concepts, some of which didn't make it into the experience. We wanted to show what the program could be capable of and give stakeholders ideas to share and grow within the program, whether or not they became prioritized projects.</p>
         <ul>
           <li>Focused home page that highlights the next activity for the participant to complete.</li>
           <li>Providing more research context throughout the participant journey, including personalizing research returns on the data they provided. </li>

@@ -1,0 +1,17 @@
+.taskContainer {
+    display: flex;
+    align-items: center;
+    .tasks, .tasksImage {
+        width: 48%;
+        margin-right: 10px;
+    }
+    .tasks {
+        background: #cbeffb;
+        border-radius: 10px;
+        ul {
+            margin-top: 0px;
+            margin-left: 0px;
+            padding: 20px 30px;
+        }
+    }
+}

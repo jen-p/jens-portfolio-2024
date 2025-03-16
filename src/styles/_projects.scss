@@ -26,6 +26,7 @@
 		object-fit: cover;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 
 		&:hover {
 			box-shadow: 0 8px 8px 0 rgba(24,24,24,0.25);
@@ -62,6 +63,9 @@
 		max-height: 450px;
 		overflow: hidden;
 		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
 		.heroImage {
 			width: 100%;
