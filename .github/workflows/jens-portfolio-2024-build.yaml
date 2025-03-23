@@ -39,6 +39,7 @@ jobs:
         run: |
           npm install
           npm run build
+          npm prune --production
 
 # Please do not touch the following action
       - name: Store deployment content
