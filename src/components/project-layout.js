@@ -18,7 +18,6 @@ const ProjectLayout = (props) => {
   }*/
 
   // const id = projects.find(project => project.id === props.id)
-  console.log("id", id)
   
     return (
       <Layout>

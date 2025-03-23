@@ -42,20 +42,20 @@ h1, h2, h3 {
 h1 {
   font-size: $fs-h1;
   line-height: $lh-h1;
-  @include mq($until: $bp-medium) {
-    font-size: $fs-h2;
-    line-height: $lh-h2;
-  }
+  // @include mq($until: $bp-medium) {
+  //   font-size: $fs-h2;
+  //   line-height: $lh-h2;
+  // }
 }
 h2 {
   font-size: $fs-h2;
   line-height: $lh-h2;
   margin-top: 3rem;
   margin-bottom: -.5rem;
-  @include mq($until: $bp-medium) {
-    font-size: $fs-h3;
-    line-height: $lh-h3;
-  }
+  // @include mq($until: $bp-medium) {
+  //   font-size: $fs-h3;
+  //   line-height: $lh-h3;
+  // }
 }
 h3 {
   font-size: $fs-h3;

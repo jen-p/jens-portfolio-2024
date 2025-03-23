@@ -6,23 +6,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.ts"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
-    "next": "^15.2.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-helmet": "^6.1.0"
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/node": "20.17.25",
+    "@types/react": "19.0.12",
     "@types/react-dom": "^19",
+    "next": "^15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0",
     "eslint": "^9",
     "gh-pages": "^6.3.0",
     "sass": "^1.86.0",
-    "sass-mq": "^6.0.0",
-    "typescript": "^5"
+    "typescript": "5.8.2"
   }
 }
