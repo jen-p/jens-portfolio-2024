@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.ts",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "start": "NODE_ENV=production node server.ts"
   },
   "dependencies": {
     "react": "^19.0.0",
