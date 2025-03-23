@@ -15,13 +15,13 @@
     "id": "oncology-prior-auths",
     "title": "Prior Authorization for Oncology",
     "desc": " ",
-    "link": "/work/all-of-us",
+    "link": "/work/oncology-prior-auth",
     "hero": "/images/diabetes/diabetes-hero.jpg",
     "alt": "something",
     "w":"2805",
     "h":"1076",
-    "date": "2020 - 2024",
-    "client": "Vibrent Health, NIH"
+    "date": "2020 - 2021",
+    "client": "OncoHealth"
   },
   {
     "id": "diabetes-treatment-tools",

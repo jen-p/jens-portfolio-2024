@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
   },
   assetPrefix: isProd ? '.' : '',
   output: 'export',
+  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
+  trailingSlash: true,
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.

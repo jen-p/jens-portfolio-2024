@@ -1,14 +1,12 @@
 {
   "name": "jens-portfolio-2024",
   "version": "0.1.0",
-  "homepage": "https://jen-p.github.io/jens-portfolio-2024/",
+  "homepage": "jenniferpatel.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prettier": "next prettier",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
@@ -16,7 +14,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.83.4",
     "sass-mq": "^6.0.0"
   },
   "devDependencies": {
@@ -25,9 +22,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.1.6",
     "gh-pages": "^6.3.0",
     "next": "^15.2.2",
+    "sass": "^1.86.0",
     "typescript": "^5"
   }
 }
