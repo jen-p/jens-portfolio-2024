@@ -4,20 +4,6 @@ import Link from 'next/link'
 //import Logo from '../assets/images/logo.inline.svg'
 
 const Header = () => {
-  /*constructor(props) {
-    super(props)
-
-    this.state = {
-      mobileNavOpen: false,
-    }
-  }
-
-  toggleMobileNav = () => {
-    document.body.classList.toggle('has-overlay')
-    this.setState({ mobileNavOpen: !this.state.mobileNavOpen })
-  }*/
-
-  
     const navItems = [
       { link: '/', title: 'Work' },
       { link: '/whoami/', title: 'Who Am I?' }

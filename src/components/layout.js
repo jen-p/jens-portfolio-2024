@@ -6,6 +6,19 @@ import Helmet from 'react-helmet'
 import Header from './header'
 import Footer from './footer'
 
+import { Source_Serif_4, Source_Sans_3 } from 'next/font/google';
+
+const sourceSans = Source_Sans_3({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  style: ['normal', 'italic']
+});
+
+const sourceSerif = Source_Serif_4({
+  weight: ['300'],
+  subsets: ['latin']
+});
+
 /*class Layout extends Component {*/
 const Layout = (props) => {
   /*render() {*/
@@ -40,7 +53,7 @@ const Layout = (props) => {
           <html lang="en" />
         </Helmet>
         <Header />
-        <div className="app__body">{props.children}</div>
+        <div className={`app__body ${sourceSans.className} ${sourceSerif.className}`}>{props.children}</div>
         <Footer />
       </div>
     )

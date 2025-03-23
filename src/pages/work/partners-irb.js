@@ -7,6 +7,23 @@ const Page = () => (
   <ProjectLayout
     id="partners-irb">
     <div className="container">
+    <div className="projectStats">
+        <div className="stat">
+          <p className="statLabel">Role</p>
+          <p className="statValue">Design Lead</p>
+        </div>
+
+        <div className="stat">
+          <p className="statLabel">Team size</p>
+          <p className="statValue">2-3 designers, 3 engineers</p>
+        </div>
+
+        <div className="stat">
+          <p className="statLabel">Project Length</p>
+          <p className="statValue">2 years</p>
+        </div>
+      </div>
+
       <p>As a designer at GoInvo, I led a design team who worked on the Partners Healthcare IRB system <em>Insight</em> to architect more efficient workflows, introducing usability best practices and guided experiences to minimize errors in the submission process and increase approval turnaround rates. With these new UX patterns, our team established the foundational design system for the rest of the larger Insight application.</p>
       <h2>Background</h2>
       <p>Institutional review boards (IRBs) stand as gatekeepers of medical research, reviewing and ensuring proposed studies are ethical and legal, as they will eventually have a direct impact on long-term patient outcomes. Partners Healthcare, as the largest provider network in Massachusetts, requires all Partners-affiliated investigators to submit their studies and have them approved by the Partners Human Research Committee (PHRC). Insight, PHRC's electronic IRB portal, is the central point of ingest and administration for medical research for six major research institutions. The software and processes suffered from serious usability issues that would impede turnaround times and delay research for weeks or months.</p>

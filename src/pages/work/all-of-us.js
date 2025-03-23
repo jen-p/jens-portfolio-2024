@@ -22,11 +22,6 @@ const Page = () => (
           <p className="statLabel">Project Length</p>
           <p className="statValue">4 years</p>
         </div>
-
-        <div className="stat">
-          <p className="statLabel">Organization</p>
-          <p className="statValue">GoInvo</p>
-        </div>
       </div>
 
       <h2>Problem Statement</h2>

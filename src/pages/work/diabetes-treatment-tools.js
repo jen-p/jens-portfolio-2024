@@ -7,6 +7,22 @@ const Page = () => (
   <ProjectLayout
     id="diabetes-treatment-tools">
     <div className="container">
+      <div className="projectStats">
+          <div className="stat">
+            <p className="statLabel">Role</p>
+            <p className="statValue">Design Lead</p>
+          </div>
+
+          <div className="stat">
+            <p className="statLabel">Team size</p>
+            <p className="statValue">1-2 designers</p>
+          </div>
+
+          <div className="stat">
+            <p className="statLabel">Project Length</p>
+            <p className="statValue">4 months</p>
+          </div>
+        </div>
         <p>While at GoInvo, I get to work on very interesting and impactful projects, where I learn a lot about how to approach health design. While I am not able to show the work we did for this project, I wanted to share a bit about what I learned. Our goal was to study the product they were piloting, improve usability, display data to support clinician thinking and decision-making, and concept and build upon new functions to flexibly support both hospital and clinic-sized operations. The project occurred in two phases, some time apart. In the first round, we focused mainly on insulin titration recommendations, intervention support, clinical decision support, administrative management, and a future vision with more patient engagement and patient-reported data. In the second portion of the project, we expanded to include additional treatment for diabetes beyond insulin such as oral medication as well as alternative therapies such as nutrition or exercise.</p>
 
         <h2>Background</h2>

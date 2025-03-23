@@ -9,6 +9,22 @@ const Page = () => (
   <ProjectLayout
     id="inspired-ehrs">
     <div className="container">
+    <div className="projectStats">
+        <div className="stat">
+          <p className="statLabel">Role</p>
+          <p className="statValue">Design Lead, Front-end engineer</p>
+        </div>
+
+        <div className="stat">
+          <p className="statLabel">Team size</p>
+          <p className="statValue">1 designer</p>
+        </div>
+
+        <div className="stat">
+          <p className="statLabel">Project Length</p>
+          <p className="statValue">1.5 years</p>
+        </div>
+      </div>
       <div className="button-group">
         <Button text="Read the Book" link="http://inspiredehrs.org/" />
         <Button text="GitHub" link="https://github.com/goinvo/EHR " />
