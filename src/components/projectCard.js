@@ -8,8 +8,7 @@ const ProjectCard = (props) => {
       desc,
       link,
       hero,
-      w,
-      h,
+      alt
     } = props
 
     return (
@@ -17,7 +16,7 @@ const ProjectCard = (props) => {
         <div className="projectCard">
           <Link href={link}>
             <div className="projectHero">
-              <Image src={hero} height={h} width={w} className="heroImage"  />
+              <img src={hero} className="heroImage" alt={alt} />
             </div>
           </Link>
           <div className="projectDeets">

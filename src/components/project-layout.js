@@ -24,7 +24,7 @@ const ProjectLayout = (props) => {
       <Layout>
         <div className="projectPage">
           <div className="projectHero">
-            <Image src={id.hero} height={id.h} width={id.w} className="heroImage" />
+            <img src={id.hero} alt={id.alt} className="heroImage" />
           </div>
           <div className="container projectTitle">
             <h1 className="title">{id.title}</h1>

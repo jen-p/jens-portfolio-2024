@@ -13,7 +13,7 @@ const Whoami = () => (
         <div className="blurb section">
           <p>We've looked everywhere but can't find what you're looking for.</p>
           <div className="image-container">
-            <Image src="/images/ohai.jpg" height="2118" width="1600" className="not-found-image" />
+            <img src="/images/ohai.jpg" className="not-found-image" />
           </div>
         </div>
       </div>

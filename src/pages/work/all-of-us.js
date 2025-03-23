@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import ProjectLayout from '../../components/project-layout'
 import styles from "../../styles/case-study-aou.scss";
 
@@ -53,7 +52,7 @@ const Page = () => (
         <p>The <i>All of Us</i> Research Program, run by the National Institutes of Health (NIH), is a nationwide health study that aims to collect health data from a diverse group of 1 million or more people living in the United States. The program aims to run for 10 years or more, providing this diverse dataset longitudinally. Every human is unique, with different genes, lifestyles, and living conditions, and circumstances that change over time. The more researchers can learn about what affects people’s health, the better they will be able to drive research that impacts more humans.</p>
         <p>The program is an ambitious government-funded health research effort with the goal to retain and engage participants long-term. More than a hundred funded partner organizations work together to run the <i>All of Us</i> Research Program.<sup><a href="#references">2</a></sup> GoInvo was brought in as a small task force, working as the design team for the PTSC under Vibrent Health to support the digital experience in the <i>All of Us</i> PTSC Participant Portal.</p>
         
-        <Image src="/images/aou/02-where-goinvo-fits-in-the-aou.jpg" height={977} width={2000} alt="" />
+        <img src="/images/aou/02-where-goinvo-fits-in-the-aou.jpg" alt="" />
         <p className="caption">More than a hundred funded partner organizations work together to run the <i>All of Us</i> Research Program. GoInvo is just a small part of this consortium.</p>
         
         <p>Participants who join contribute through answering surveys, providing biosamples, sharing electronic health records (EHRs), and more. The program maintains their information and provides de-identified data to researchers. Participants can access the online portal to stay connected with the program and receive results demonstrating the impact of their contributions to the program. PTSC's focus was to provide a digital platform to support participation by delivering surveys, communications, and returns of results. GoInvo facilitated this by focusing on participant's perspectives and needs.</p>
@@ -75,7 +74,7 @@ const Page = () => (
             </ul>
           </div>
           <div className="tasksImage">
-          <Image src="/images/aou/04-how-we-work_2.jpg" height={883} width={1228} alt="50% facilitate UX across participant program, 25% software design, 12% ruser research and testing, 7% BS, 4% overhead management, 2% designing the future of health research" />
+          <img src="/images/aou/04-how-we-work_2.jpg" alt="50% facilitate UX across participant program, 25% software design, 12% ruser research and testing, 7% BS, 4% overhead management, 2% designing the future of health research" />
           <p className="caption">Illustration by Parsuree Vatanasirisuk</p>
           </div>
         </div>
@@ -99,18 +98,18 @@ const Page = () => (
         <h4>Delivered shippable designs for program initiatives.</h4>
         <p>We worked closely with Vibrent Health's program and technical teams to support design tasks for <i>All of Us</i>, allowing us to learn how the teams implement, develop, and maintain the program and portal &mdash; what’s possible and what’s not. Knowing how the portal delivers experiences to participants, its capabilities and constraints, is crucial when delivering user-friendly and accessible designs that are possible to implement with the resources and timelines provided.</p>
 
-        <Image src="/images/aou/03-portal-dashboard.jpg" height={1313} width={2000} alt="" />
+        <img src="/images/aou/03-portal-dashboard.jpg" alt="" />
 
         <h4>Established a design library and created reusable UI components.</h4>
         <p>We compiled a design library and usability patterns based on the existing portal styles. These reusable components and style guides allowed program design teams to design and build prototypes quickly with consistency. As we continued to design new activities for participants in the portal, we adjusted and expanded this guide as needs came up and recommendations were organized among other priorities.</p>
 
-        <Image src="/images/aou/06-ui-library.jpg" height={1313} width={2000} alt="" />
+        <img src="/images/aou/06-ui-library.jpg" alt="" />
         <p className="caption">Styles from <i>All of Us</i> UI library</p>
 
         <h4>Developed cohesive design systems and best practices across the digital experience.</h4>
         <p>Collaborating with the NIH program and design teams, we developed guidelines to establish and document standards for program-wide visuals. Together, we compiled existing illustrations into an open library of elements so that any designer can reuse ready-made assets to create new graphics for any program materials, aiming for consistency across <i>All of Us</i> design, a library which can be used as a repository for new illustration elements that will continue to grow over the life of the program.</p>
 
-        <Image src="/images/aou/07-illustration-assets.jpg" height={1125} width={2000} alt="" />
+        <img src="/images/aou/07-illustration-assets.jpg" alt="" />
         <p className="caption">Styles and guidelines from All of Us illustration guide</p>
 
         <h4>More than a design team.</h4>
@@ -129,7 +128,7 @@ const Page = () => (
 
         <p>Throughout the process, our role as user experience designers is to advocate for participants and support the best experience while balancing usability against program policy, product constraints, and implementation.</p>
 
-        <Image src="/images/aou/08_form.jpg" height={1300} width={2000} alt="" />
+        <img src="/images/aou/08_form.jpg" alt="" />
 
       </div>
 
@@ -158,7 +157,7 @@ const Page = () => (
 
         <p>The redesign afforded our team the opportunity to propose our vision for participation in the future. While collaborating on several initiatives over time, our research and findings pointed to some key features that could improve participant engagement.</p>
 
-        <Image src="/images/aou/09_ia.jpg" height={1404} width={2000} alt="proposed information architecture designs" />
+        <img src="/images/aou/09_ia.jpg" alt="proposed information architecture designs" />
 
       </div>
       <div class="caseStudySection">
