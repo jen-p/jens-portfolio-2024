@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import projects from "../data/projects"
 import styles from "../styles/main.scss";
+import Button from "../components/button.js"
 
 const ProjectLayout = (props) => {
   const [id, setId] = useState(() => projects.find(project => project.id === props.id))
@@ -32,6 +33,12 @@ const ProjectLayout = (props) => {
           </div>
           <div className="caseStudyContent">
             {props.children}
+          </div>
+          <div className="backProjects">
+            <Button
+              link="../"
+              text="Check out more projects" >
+            </Button>
           </div>
         </div>
       </Layout>

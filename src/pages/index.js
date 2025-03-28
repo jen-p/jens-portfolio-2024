@@ -32,7 +32,12 @@ const Whoami = () => (
 
       </div>
     </div>
-
+    <div className="skillsBox">
+      <div className="container">
+          <h2>Skills</h2>
+          <p>Strategy</p>
+      </div>
+    </div>
   </Layout>
 )
 

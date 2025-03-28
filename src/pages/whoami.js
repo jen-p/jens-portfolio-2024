@@ -46,7 +46,6 @@ const Whoami = () => (
         </div>
       </div>
     </div>
-
   </Layout>
 )
 

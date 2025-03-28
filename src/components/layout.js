@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 
 import Header from './header'
 import Footer from './footer'
+import Contact from './contact'
 
 import { Source_Serif_4, Source_Sans_3 } from 'next/font/google';
 
@@ -54,6 +55,7 @@ const Layout = (props) => {
         </Helmet>
         <Header />
         <div className={`app__body ${sourceSans.className} ${sourceSerif.className}`}>{props.children}</div>
+        <Contact />
         <Footer />
       </div>
     )
