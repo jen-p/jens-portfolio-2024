@@ -103,11 +103,10 @@ a.external {
 }
 
 ul {
-  margin-top: -20px;
-  margin-left: -20px;
+  margin-left: -40px;
   list-style-position: outside;
-  li {
-      
+  li:not(last-child) {
+    margin-bottom: 10px;
   }
 }
 

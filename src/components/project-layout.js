@@ -36,7 +36,7 @@ const ProjectLayout = (props) => {
           </div>
           <div className="backProjects">
             <Button
-              link="../"
+              link="/"
               text="Check out more projects" >
             </Button>
           </div>

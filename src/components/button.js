@@ -10,8 +10,8 @@ class Button extends Component {
     return (
       <a
           href={link}
-          target="_blank"
-          rel="noopener noreferrer"
+          //target="_blank"
+          //rel="noopener noreferrer"
           className="button"
         >
           {text}
