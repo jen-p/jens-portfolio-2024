@@ -1,6 +1,4 @@
 import React from 'react'
-import Button from "./Button"
-//import { Link } from 'gatsby'
 
 const Contact = () => {
     
@@ -9,11 +7,14 @@ const Contact = () => {
         <div className="container">
             <h2>Get in touch!</h2>
             <p>Interested in collaborating or have a project in mind? Let's chat!</p>
-            <Button
-                link="mailto:jennifer.c.patel@gmail.com"
-                text="Contact me" >
-              </Button>
-            
+            <a
+                href="mailto:jennifer.c.patel@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button"
+                >
+                Contact me
+            </a>
         </div>
   </div>
   )
