@@ -11,10 +11,10 @@
   },
   {
     "id": "oncology-prior-auths",
-    "title": "Prior Authorization for Oncology",
-    "desc": " ",
+    "title": "Faster Approvals, Better Outcomes: Prior Authorization for Cancer Care",
+    "desc": "Software design for efficient, more intelligent protocol review, saving time and burden for insurers, providers, and hospitals.",
     "link": "/work/oncology-prior-auth/",
-    "hero": "/images/diabetes/diabetes-hero.jpg",
+    "hero": "/images/priorauth/pa-hero.jpg",
     "alt": "something",
     "date": "2020 - 2021",
     "client": "OncoHealth"

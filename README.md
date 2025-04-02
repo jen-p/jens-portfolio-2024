@@ -27,8 +27,9 @@ then
 ```bash
 npm run start
 ```
-## Replacing the fonts
-- Replace the fonts you want to use globally in the /components/layout.js file
+## Replacing fonts
+- Replace the fonts you want to use globally in the /components/layout.js and /styles/_type.scss files.
+- 
 
 ## Learn More
 
