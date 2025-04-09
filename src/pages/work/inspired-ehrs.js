@@ -32,7 +32,7 @@ const Page = () => (
       <p>Electronic health records (EHRs) were originally designed to help with medical billing, and are typically plagued with clumsy interfaces, poorly designed information hierarchy, and cumbersome workflows, all of which distance clinicians from quality patient care. In most cases, these systems are set up for failure —clinicians burnout and patients' lives are put at risk. With a team of physicians, nurses, health IT, and HCI experts, as a designer at GoInvo, I designed, coded, and became a co-author on an open source e-book to distribute ideas, designs, and techniques to health IT and EHR vendors to jumpstart EHR design on a US national level.</p>
       <h2>Problem Statement</h2>
       <p>EHRs (electronic health records) today are notoriously difficult to use, though they play a critical role in providing health care across the United States. EHRs historically lacked intuitive interfaces, usable processes, and basic readability. There’s plenty of room for improvement, informed by healthcare processes, human factors principles, and usability design. Jeff Belden, a family physician and professor at the University of Missouri, partnered with GoInvo to share this vision and inspire a change in EHR design standards. With support from the California Healthcare Foundation and the SHARP-C Project of the Office of the National Coordinator for Health IT, a team of physicians, humans factors and usability experts assembled to take on this challenge.</p>
-      <div class="case-study-section">
+      <div className="case-study-section">
         <h2>Process</h2>
         <h4>A web-based e-book as our canvas</h4>
         <p>Together, the core team approached the project knowing the outcome would be an interactive experience to communicate our vision to a niche audience. For our very first workshop, we brought in inspiration in the form of physical books, interactive digital experiences, and e-books. An e-book was a team favorite, as it is a familiar format for our audience, easier to share with marketplaces already in place, and a low production cost. As the project evolved, we saw that an HTML-based open source format would be our most accessible way to reach our target audience, and allowed us to prototype our designs as tangible examples. The e-book, exposing how software design and national standards collide, became a lightweight design policy for electronic health records.</p>
@@ -43,7 +43,7 @@ const Page = () => (
         <p>In addition to workshop facilitation, design, and prototyping, we also contributed to the content of the book. In addition to rounds of review with test readers, our team performed iterative rounds of editing of not just designs but also text. With selective word choice and tightening of text, the team was able to convey complex clinical situations to designers and engineers in clear, concise language.</p>
       </div>
 
-      <div class="case-study-section">
+      <div className="case-study-section">
         <h2>Solution</h2>
         <h4>Open source designs you can touch and play with</h4>
         <p>We originally designed early versions of the e-book for Apple format, using iBooks Author to compose and iBooks to share and test the contents. As the project evolved, we saw that the web would be able to reach a much wider audience, no matter their device of choice, gave us greater control over content, interaction, updates, and allowed us to make the transition from e-book to prototyped examples as seamless as possible. We published the final product under the Apache 2.0 license.</p>
@@ -60,7 +60,7 @@ const Page = () => (
         <p><em>Inspired EHRs: Designing for Clinicians</em> offers inspiration and design principles to aim for EHRs designed with the clinician and patient in mind. Although it has been a while since the book was released, we still hear about it inspiring designers and engineers to push the boundaries of health IT to continue to improve healthcare.</p>
       </div>
 
-      <div class="case-study-section">
+      <div className="case-study-section">
           <h2>Improvements</h2>
           <p>There are still many more topics in health IT to tackle and redesign for the healthcare workers who use them every day and for the patients whose health and wellness depend on them. Ideally, more chapters and volumes would follow, outlining more areas in healthcare that are problematic and how we might change our approach to address them. It has also been some time since this book came out. If I were to revisit, I would apply more of what I've learned over the years for accessibility, 508 compliance, and the entire experience of the health encounter.</p>
           <p>For instance, a self-documenting encounter could greatly reduce physician burden, prescribing software could use a collection of patient history, preferences, and insurance information to add intelligent recommendations and further reduce cognitive load on the physician and the pharmacist.</p>

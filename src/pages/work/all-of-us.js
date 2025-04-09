@@ -42,7 +42,7 @@ const Page = () => (
         <li>Reach 700,000+ enrolled participants and growing.</li>
       </ul>
 
-      <div class="caseStudySection">
+      <div className="caseStudySection">
         <h2>Background</h2>
         <p>The <i>All of Us</i> Research Program, run by the National Institutes of Health (NIH), is a nationwide health study that aims to collect health data from a diverse group of 1 million or more people living in the United States. The program aims to run for 10 years or more, providing this diverse dataset longitudinally. Every human is unique, with different genes, lifestyles, and living conditions, and circumstances that change over time. The more researchers can learn about what affects people’s health, the better they will be able to drive research that impacts more humans.</p>
         <p>The program is an ambitious government-funded health research effort with the goal to retain and engage participants long-term. More than a hundred funded partner organizations work together to run the <i>All of Us</i> Research Program.<sup><a href="#references">2</a></sup> GoInvo was brought in as a small task force, working as the design team for the PTSC under Vibrent Health to support the digital experience in the <i>All of Us</i> PTSC Participant Portal.</p>
@@ -54,7 +54,7 @@ const Page = () => (
         <iframe width="100%" height="400" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fe7diNgM5UANDvlNZrQQlWT%2FCase-Study---All-of-Us%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D428-41589%26viewport%3D-4280%252C575%252C0.57%26t%3DGTLchu6PehP12rr7-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D428%253A41589%26mode%3Ddesign%26hide-ui=1" allowfullscreen></iframe>
       </div>
 
-      <div class="caseStudySection">
+      <div className="caseStudySection">
         <h2>Process</h2>
         <p>Our day-to-day operations varied to adapt to program priorities, encompassing diverse roles that involved design, project management, user experience expertise, product validation (QA), and collaborative engagement with program consortium stakeholders.</p>
         
@@ -127,7 +127,7 @@ const Page = () => (
 
       </div>
 
-      <div class="caseStudySection">
+      <div className="caseStudySection">
         <h2>Solution</h2>
         <h4>Developed strategy for returning results of portal activities.</h4>
         
@@ -155,7 +155,7 @@ const Page = () => (
         <img src="/images/aou/09_ia.jpg" alt="proposed information architecture designs" />
 
       </div>
-      <div class="caseStudySection">
+      <div className="caseStudySection">
         <h2>Improvements</h2>
         <p>As a team who came to understand the nuances of the participant journey and came to care deeply for the program's participants, there is more that we wanted to provide for participants.</p>
 
@@ -171,7 +171,7 @@ const Page = () => (
         </ul>
       </div>
 
-      <div class="caseStudySection">
+      <div className="caseStudySection">
         <h2>Challenges & Takeaways</h2>
         <p>The <i>All of Us</i> Research Program is an ambitious research effort. It consists of many stakeholders and funded partner organizations working together from different areas of expertise. There is no one process to rule all. While supporting the program’s needs and advocating for participants, we continue to improve our processes and adjust for all situations as the program grows and evolves.</p>
 
@@ -189,7 +189,7 @@ const Page = () => (
 
       </div>
 
-      <div class="caseStudySection">
+      <div className="caseStudySection">
         <h2>Results</h2>
         <p>Impacting 750k (and growing) registered participants through program-wide design, UX leadership, guidance, and coordination between research groups and program offices, GoInvo has helped to:</p>
 
@@ -202,7 +202,7 @@ const Page = () => (
         </ol>
       </div>
 
-      <div class="case-study-section references">
+      <div className="case-study-section" id="references">
         <h2>References</h2>
         <ol>
           <li><a href="https://www.mayoclinicproceedings.org/article/S0025-6196(20)31259-3/fulltext" target="_blank noreferrer">Minority Representation in Clinical Trials in the United States</a></li>

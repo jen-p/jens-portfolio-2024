@@ -27,7 +27,7 @@ const Page = () => (
       <p>As a designer at GoInvo, I led a design team who worked on the Partners Healthcare IRB system <em>Insight</em> to architect more efficient workflows, introducing usability best practices and guided experiences to minimize errors in the submission process and increase approval turnaround rates. With these new UX patterns, our team established the foundational design system for the rest of the larger Insight application.</p>
       <h2>Background</h2>
       <p>Institutional review boards (IRBs) stand as gatekeepers of medical research, reviewing and ensuring proposed studies are ethical and legal, as they will eventually have a direct impact on long-term patient outcomes. Partners Healthcare, as the largest provider network in Massachusetts, requires all Partners-affiliated investigators to submit their studies and have them approved by the Partners Human Research Committee (PHRC). Insight, PHRC's electronic IRB portal, is the central point of ingest and administration for medical research for six major research institutions. The software and processes suffered from serious usability issues that would impede turnaround times and delay research for weeks or months.</p>
-      <div class="case-study-section">
+      <div className="case-study-section">
         <h2>Process</h2>
         <h4>In-depth, in-person interviews</h4>
         <p>To begin with a thorough understanding of how the current IRB system worked and identify the depth and breadth of problem areas, the GoInvo team conducted a preliminary round of in-depth interviews, with 65 individuals at 6 research facilities, each who had a hand in the protocol review process, as well as 19 individuals on the review side, from analysts to admins. We conducted group interviews, one-on-one shadowing, as well as walkthroughs of their common tasks and workflows. Investigating the end-to-end IRB process allowed us to develop an appreciation for and an in-depth understanding of the people for whom we were designing, how they thought about their work, and the tools they used to get it done.</p>
@@ -37,7 +37,7 @@ const Page = () => (
         <img src="/images/partners/insight-interview.jpg" alt="" />
       </div>
 
-      <div class="case-study-section">
+      <div className="case-study-section">
         <h2>Solution</h2>
         <p>Starting with Insight’s most complicated research module, Humans, our goal was to reduce friction between reviewers and submitters in addition to shortening the time it takes to prepare, submit, review, and push a protocol to approval.</p>
 

@@ -29,14 +29,14 @@ const Page = () => (
         <p>Diabetes treatment and insulin titration for dosages are typically arrived at using paper-based sliding scales, chasing blood glucose levels, leading to a roller coaster of unstable blood sugar levels for patients with diabetes, complicating co-morbidities or causing hyper- or hypoglycemia, potentially permanently debilitating or even fatal conditions.</p>
         <p>It's no secret that looking at a patient's history of readings and life measurements pave the path for personalized medicine. As it should be, since medical care is not one size fits all. We might be able take those readings, patient-reported outcomes, and measurements from everyday life, and then deliver accurate treatment recommendations, which the patient's provider could then use to offer care tailored to that person and their specific needs.</p>
 
-        <div class="case-study-section">
+        <div className="case-study-section">
           <h2>Process</h2>
           <h4></h4>
           <p>To strengthen our understanding of diabetes medication management, we investigated the industry competitive landscape, mapping where the product currently stood and where they aimed to go, looking at key features and intended audience. Many patient-focused solutions acted mainly as data-collection hubs and weren’t able to provide recommendations to the patient beyond a visual history of self-submitted data. Clinician-focused products were visually cluttered and didn't offer providers human-friendly handouts to give to their patients. Products that did bring patients together with a health professional were mainly communication tools that didn't handle clinical data or recommendations beyond setting and meeting goals.</p>
           <p>To dig deep into the provider decision-making process, we interviewed certified diabetes educators (CDEs), clinicians, and nurses, some of whom were piloting the software with their patients at the time. We sought to understand their workflow when providing in-person and remote care, what they take into consideration when meeting with patients and prescribing treatments. </p>
         </div>
 
-        <div class="case-study-section">
+        <div className="case-study-section">
           <h2>Solution</h2>
           <h4></h4>
           <p>Our goal was to improve usability, display data to support clinician thinking, and concept and build upon new functions to flexibly support hospital/clinic organization and administration.</p>
@@ -58,7 +58,7 @@ const Page = () => (
           <p>In addition to insulin, non-insulin medications, and combination treatments, we saw an opportunity to prescribe non-drug therapies such as regular exercise or consultation with a dietician to work on a healthy diet. Based on individual preferences and goals, lifestyle and behavioral changes may be better suited to helping patients keep their diabetes under control in the long run more than dealing with medication, treatment schedules, and potential side effects.</p>
           <p>With more treatment options to choose from, complex therapy regimens would be inevitable. Having a sheet printed or emailed to patients saved the provider time in typing it all up manually, and includes reminders of the patient's goals that would promote adherence to the treatment options. Sometimes all you need is a reminder of what you're working towards to stick to your care plan.</p>
         </div>
-        <div class="case-study-section">
+        <div className="case-study-section">
           <h2>Improvements</h2>
           <p>Given more time on either phases of the project, it would have been beneficial to have spoken to patients one on one about their experiences with living with diabetes and building treatment plans with their providers. First hand accounts are invaluable compared to anecdotal evidence conveyed by providers. While many providers are empathetic and observant, there is often a bias involved and missing pieces to the puzzle. Understanding the patient's point of view would have been key to building a patient-focused care tool.</p>
           <p>Given more time and feasibility for production, a patient-facing app would help both with data collection tool as well as communicating ongoing treatment adjustments.</p>
