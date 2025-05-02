@@ -72,6 +72,7 @@ h4 {
 }
 
 p {
+  font-family: $font-family;
   max-width: 980px;
   font-size: $fs-base;
   line-height: $lh-md;
@@ -103,10 +104,21 @@ a.external {
 }
 
 ul {
+  font-family: $font-family;
   margin-left: -40px;
   list-style-position: outside;
   li:not(last-child) {
     margin-bottom: 10px;
+  }
+  &.two-col-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    @media only screen and (max-width:  $bp-medium) {
+      columns: 1;
+      -webkit-columns: 1;
+      -moz-columns: 1;
+    }
   }
 }
 
@@ -114,7 +126,7 @@ ol {
   margin-left: -20px;
   list-style-position: outside;
   li {
-
+    margin-bottom: 10px;
   }
 }
 

@@ -2,9 +2,10 @@
     margin-top: 80px;
 }
 
-.ethos, .skills, .edu {
+.ethos, .skills, .edu, .pub {
   h2 {
     margin-bottom: 20px;
+    margin-top: 0;
     line-height: 3rem;
   }
   ul {
@@ -12,6 +13,17 @@
     padding-left: 0;
     li {
         list-style: none;
+    }
+  }
+}
+
+.pub {
+  .pub-item {
+    h4 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
     }
   }
 }
