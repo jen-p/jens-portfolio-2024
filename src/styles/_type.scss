@@ -120,6 +120,14 @@ ul {
       -moz-columns: 1;
     }
   }
+  &.no-list-style {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    li {
+      margin-bottom: 0;
+    }
+  }
 }
 
 ol {

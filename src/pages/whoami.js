@@ -96,13 +96,23 @@ const Whoami = () => (
           </div>
         </div>
 
-        <div className="edu section">
-          <h2>Education</h2>
-          <p>2007 - 2011 BFA 
-            <br />New Media Design & Imaging, 
-            <br />Rochester Institute of Technology
-          </p>
-          <p>I'm always learning new things every day, and with every project.</p>
+        <div className="flex-container">
+          <div className="edu section one-col">
+            <h2>Education</h2>
+            <p>2007 - 2011 BFA 
+              <br />New Media Design & Imaging, 
+              <br />Rochester Institute of Technology
+            </p>
+            <p>I'm always learning new things every day, and with every project.</p>
+          </div>
+
+          <div className="contact-socials section one-col">
+            <h2>Find me online</h2>
+            <ul className="no-list-style">
+              <li><a href="www.linkedin.com\in\jennifer-patel-sobus"><span className="icon linkedin"></span>LinkedIn</a></li>
+              <li><a href="https://github.com/jen-p"><span className="icon github"></span>GitHub</a></li>
+            </ul>
+          </div>
         </div>
 
       </div>
