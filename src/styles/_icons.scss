@@ -1,15 +1,10 @@
 .icon {
     display: inline-block;
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-    margin-bottom: -5px;
     object-fit: contain;;
     &.linkedin {
-        background-image: url('../assets/icons/linkedin.svg') no-repeat center center;
-        fill: $purple;
+        background-image: url('../assets/icons/linkedin.svg');
     }
     &.github {
-        background-image: url('../assets/icons/github.svg') no-repeat center center;
+        background-image: url('../assets/icons/github.svg');
     }
 }
