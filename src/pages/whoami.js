@@ -13,7 +13,7 @@ const Whoami = () => (
         <div className="blurb section">
           <p>I'm Jennifer Patel, a Boston-based product designer with 14 years of experience leading UX and transforming complex challenges into intuitive solutions across healthcare, AI, government, and enterprise sectors, creating usable and beautiful designs for humans. I have a passion for creating solutions to advance medical science, improve access to care, and to keep pushing for social equality and global good.</p>
           <p>With BFA in New Media Design & Imaging from the Rochester Institute of Technology, I've been designing for enterprise and healthcare at GoInvo since 2011. I've covered projects in all aspects, from user and domain research, project management, ideation, pixels, prototypes, user testing, facilitating workshops, and guiding as well as contributing to development and production, ranging from small homegrown efforts to larger systems in corporate healthcare.</p>
-          <p>Outside the office, I love my cats, reading, crocheting, gaming, Star Trek, Doctor Who, and writing stories.</p>
+          <p>Outside the office, you’ll usually find me curled up with a good mystery, fantasy, or sci fi novel, working up a crochet project, or chasing my cats off my keyboard. I love immersive worlds—whether it’s through gaming, writing stories, or rewatching Star Trek and Doctor Who. I’m always up for a good plot twist.</p>
         </div>
 
         <div className="flex-container">
