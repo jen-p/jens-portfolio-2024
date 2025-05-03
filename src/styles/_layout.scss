@@ -39,6 +39,7 @@ header, footer {
 		flex-direction: column;
 	}
 	.one-col {
+		vertical-align: top;
 		width: 48%;
 		padding-right: 20px;
 		@media only screen and (max-width:  $bp-medium) {
