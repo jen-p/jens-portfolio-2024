@@ -48,10 +48,23 @@ header, footer {
 		vertical-align: top;
 		width: 48%;
 		padding-right: 20px;
+		&.col-center {
+			display: flex;
+			img {
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				margin: 0 auto;
+			}
+		}
 		@media only screen and (max-width: $bp-medium) {
 			width: 100%;
 			padding-right: 0;
 		}
+	}
+	.one-3-col {
+		width: 30%;
+		padding-right: 20px;
 	}
 }
 
@@ -127,7 +140,7 @@ hr {
 
 .backProjects {
 	text-align: center;
-	margin: 80px;
+	margin: 80px 0 80px 0;
 }
 
 .margin-top {

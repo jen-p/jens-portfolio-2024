@@ -4,9 +4,19 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	
+	@media only screen and (max-width: $bp-medium) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
     .projectCardWrapper {
 		width: 48%;
       	margin: 25px 0;
+		  @media only screen and (max-width: $bp-medium) {
+			width: 100%;
+		}
+		
   	}
     .projectCard {
 		.projectHero {
@@ -116,6 +126,12 @@
 			}
 		}
 	}
+	.frame-container {
+		margin: 0 auto;
+		&.lhl-frame {
+			max-width: 412px;
+		}
+	}
 	#references {
 		margin-top: 50px;
 		 a {
@@ -123,4 +139,5 @@
 			text-decoration: underline;
 		 }
 	}
+	
 }

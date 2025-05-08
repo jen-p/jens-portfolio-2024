@@ -57,6 +57,9 @@ const Page = () => (
             <div className="one-3-col">
               <img src="/images/lhl/home.png" alt="home" className="max-ht" />
             </div>
+            <div className="one-3-col">
+              <img src="/images/lhl/symptom_add.png" alt="home" className="max-ht" />
+            </div>
           </div>
         </div>
 
@@ -143,19 +146,23 @@ const Page = () => (
               <p>Provide recommendations based on current symptoms and historical trends. For example, guided mindfulness sessions or scheduled breaks when detecting increased stress, or suggesting follow up with a healthcare provider. (Apply caution regarding medical advice.)</p>
               <p>Allow users to set personalized health goals and use AI to generate adaptive care plan with step-by-step recommendations, educational content, and progress trackers to support users in following their care plan with incremental behavioral adjustments.</p>
             </div>
-            <div className="one-col">
+            <div className="one-col col-center">
               <img src="/images/lhl/careplan.png" alt="journal" className="max-ht" />
             </div>
           </div>
-          
-          <h4>Enhanced Patient Engagement</h4>
-          <p>Visualizations of health data that correlate symptoms, lifestyle factors, and care plan progress helps users see the impact of behaviors over time. Smart recommendations can help patients integrate healthy habits into their routine and better manage their health.</p>
           
           <h4>Robust Data Security and Privacy Controls</h4>
           <p>Allow users to control which data is shared and with whom (opt-in). Clearly communicate data handling practices to build trust. At baseline, data is private and localized, while data for analysis purposes is de-identified.</p>
           <p>Ensure all data, both at rest and in transit, is encrypted. Offer an anonymous mode for users tracking sensitive or stigmatized conditions.</p>
           <p>Use plain language to communicate transparent data policies and educate users about app data use, user data rights, and security measures in place.</p>
-          <iframe width="412" height="917" src="https://embed.figma.com/proto/AibfY6qEN3Emj5uAHB9Zcw/Jen-stuff?page-id=0%3A1&node-id=1-336&viewport=-203%2C-148%2C0.17&scaling=scale-down&content-scaling=fixed&embed-host=share" allowfullscreen></iframe>
+          <div className="frame-container lhl-frame">
+            <iframe  
+              id="lhl-figma"
+              width="100%"
+              height="917px"
+              src="https://embed.figma.com/proto/AibfY6qEN3Emj5uAHB9Zcw/Jen-stuff?page-id=0%3A1&node-id=1-336&viewport=-203%2C-148%2C0.17&scaling=scale-down&content-scaling=fixed&embed-host=share" 
+            ></iframe>
+          </div>
         </div>
 
     </div>
