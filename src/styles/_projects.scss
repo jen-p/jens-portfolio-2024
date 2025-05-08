@@ -91,6 +91,10 @@
 	img {
 		width: 100%;
 		height: auto;
+		&.max-ht {
+			max-height: 450px;
+			width: auto;
+		}
 	}
 	.projectStats {
 		display: flex;

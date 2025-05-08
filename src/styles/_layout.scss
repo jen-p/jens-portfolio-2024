@@ -35,14 +35,20 @@ header, footer {
 .flex-container {
 	display: flex;
 	flex-direction: row;
-	@media only screen and (max-width:  $bp-medium) {
+	&.flex-reverse {
+		flex-direction: row-reverse;
+		@media only screen and (max-width: $bp-medium) {
+			flex-direction: column;
+		}
+	}
+	@media only screen and (max-width: $bp-medium) {
 		flex-direction: column;
 	}
 	.one-col {
 		vertical-align: top;
 		width: 48%;
 		padding-right: 20px;
-		@media only screen and (max-width:  $bp-medium) {
+		@media only screen and (max-width: $bp-medium) {
 			width: 100%;
 			padding-right: 0;
 		}
