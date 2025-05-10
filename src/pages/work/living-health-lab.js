@@ -126,6 +126,7 @@ const Page = () => (
             <div className="one-col">
               <h4>Adaptive Symptom Tracking</h4>
               <p>The service will be able to guide users with simple interactions or conversational UI through logging symptoms. Follow-up questions, pre-filled templates, or context-aware suggestions tailored to the user's previous inputs will reduce friction and minimize repetitive data entry.</p>
+              <p>Symptom assessments will provide confidence levels to build trust with users.</p>
             </div>
             <div className="one-col">
               <div className="flex-container">
@@ -145,6 +146,7 @@ const Page = () => (
               <p>Predictive analytics can be applied to health profiles that are built over time, learning from user data to identify trends and provide timely alerts.</p>
               <p>Provide recommendations based on current symptoms and historical trends. For example, guided mindfulness sessions or scheduled breaks when detecting increased stress, or suggesting follow up with a healthcare provider. (Apply caution regarding medical advice.)</p>
               <p>Allow users to set personalized health goals and use AI to generate adaptive care plan with step-by-step recommendations, educational content, and progress trackers to support users in following their care plan with incremental behavioral adjustments.</p>
+              <p>Recommendations and assessments would come with confidence levels and sources linking to related studies or clinically validated articles.</p>
             </div>
             <div className="one-col col-center">
               <img src="/images/lhl/careplan.png" alt="journal" className="max-ht" />
