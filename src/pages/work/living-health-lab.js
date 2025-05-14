@@ -80,8 +80,13 @@ const Page = () => (
           <p><strong>Opaque AI:</strong> Privacy policies buried in settings menus.</p>
           <p><strong>Lacking AI:</strong> Many apps and services lack the ability to provide insights in the first place. Some “forget” context users find important, such as their health history. Patients are already making connections in their health, and want to be able to nudge the model to help them investigate further.</p>
           <p><strong>Privacy and data security:</strong> Users are opted in to share their data by default, when they may not feel comfortable doing so. Users are more skeptical than ever about sharing their data.</p>
-          <h3>Lessons Learned from user testing</h3>
           
+          <h3>Early prototyping</h3>
+          <p>Using ChatGPT and Vercel's V0, early concepts and key workflows could be explored. Through a series of prompts and reasoning, ChatGPT allowed me to explore ideas quickly, while comparing features with popular services in the same sphere. Like distilling sketching, design exercises, and brainstorming, AI tools accelerated the concepting process.</p>
+          <p>Using a summarizing prompt from ChatGPT, V0 generated a few rounds of interactive prototypes. While rough, they gave me an opportunity to begin to see what the architecture of the service would look like and give me something to critique. After a few rounds, we started to come to an interactive prototype that felt compelling and close to the vision, which we were able to test with some preliminary user feedback.</p>
+          <p><a href="https://v0.dev/chat/fork-of-high-fidelity-mockup-design-tnmjVDqT8Iu">The early prototype</a> was limited in functionality, some smaller interactions weren't enable, and data was not saved as a user explored. But it was still valuable as an early feedback tool so that the design could pivot with less upfront time and effort to get to the ideal solution sooner.</p>
+
+          <h3>Lessons Learned from user testing</h3>
           <div className="flex-container flex-reverse">
             <div className="one-col">
               <img src="/images/lhl/user-testing-table.png" alt="table with user testing results" />
