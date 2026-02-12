@@ -5,7 +5,7 @@ const Contact = () => {
     
   return (
     <div className="contactBox">
-        {/* <div className="container">
+        <div className="container">
             <h2>Get in touch!</h2>
             <p>Interested in collaborating or have a project in mind? Let's chat!</p>
             <a
@@ -16,7 +16,7 @@ const Contact = () => {
                 >
                 Contact me
             </a>
-        </div> */}
+        </div>
 
         {/* <section className="py-20">
             <div className="rounded-3xl bg-gradient-to-br from-blue-50 to-purple-50 p-12 text-center md:p-16">

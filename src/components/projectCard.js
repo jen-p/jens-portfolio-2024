@@ -5,16 +5,20 @@ import Image from 'next/image'
 
 const ProjectCard = (props) => {
     const {
+      id,
       title,
       desc,
       link,
       hero,
-      alt
+      alt,
+      index
     } = props
+
+    const isEven = index % 2 === 0
 
     return (
       <div className="projectCardWrapper">
-        <div className="projectCard">
+        <div className={`projectCard ${id}`}>
           <Link className="projectImage" href={link} >
             <div className="projectHero">
               <img src={hero} className="heroImage" alt={alt} />

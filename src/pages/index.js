@@ -20,6 +20,7 @@ const Whoami = () => (
             return (
               <ProjectCard
                 key={project.title}
+                id={project.id}
                 link={project.link}
                 desc={project.desc}
                 hero={project.hero}

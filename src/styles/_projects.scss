@@ -9,6 +9,11 @@
     .projectCardWrapper {
 		width: 100%;
       	margin: 25px 0;
+		&:nth-child(even) {
+			.projectCard {
+				flex-direction: row-reverse;
+			}
+		}
   	}
     .projectCard {
 		display: flex;
@@ -20,12 +25,31 @@
 		@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
 			flex-direction: column;
 		}
+		
       	h2, p {
 			margin: 0;
 			padding: 0;
 		}
 		p {
 			padding: 5px 0 10px 0;
+		}
+		&.living-health-lab,  {
+        	background-color: $light-blue; // or use a variable
+		}
+		&.all-of-us {
+			background-color: $light-purple2;
+		}
+		&.oncology-prior-auths {
+			background-color: $light-teal2;
+		}
+		&.diabetes-treatment-tools {
+			background-color: $light-teal;
+		}
+		&.partners-irb {
+			background-color: $light-blue;
+		}
+		&.inspired-ehrs {
+			background-color: $light-purple2;
 		}
 		.projectImage, .projectDeets {
 			display: inline-block;
@@ -39,7 +63,10 @@
 		.projectDeets {
 			vertical-align: top;
 			padding: 30px;
-			width: 90%;
+			width: 50%;
+			@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+				width: 90%;
+			}
 			a {
 				color:$not-black;
 				font-weight: $fw-bold;
@@ -49,11 +76,9 @@
 				}
 			}
 		}
+		
     }
     .projectHero {
-      	// box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
-     	// border-radius: 5px;
-		// transition: box-shadow ease .5s;
 		height: 100%;
 		aspect-ratio: 4 / 3;
 		overflow: hidden;
