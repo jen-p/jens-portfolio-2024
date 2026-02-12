@@ -89,6 +89,28 @@ hr {
 .whatdo {
 	margin: 15vh 0;
 	font-size: $fs-h1xl;
+
+	.bars {
+		width: 200px;
+		.bar {
+			display: inline-block;
+			border-radius: 5px;
+			height: 5px;
+			margin-right: 10px;
+		}
+		.bar1 {
+			width: 40%;
+			background-color: $teal;
+		}
+		.bar2 {
+			width: 10%;
+			background-color: $light-purple;
+		}
+		.bar3 {
+			width: 10%;
+			background-color: $light-teal;
+		}
+	}
 }
 
 img {
