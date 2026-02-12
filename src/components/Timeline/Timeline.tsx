@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import Header from '../Header';
-import Footer from '../Footer';
+import Header from '../header';
+import Footer from '../footer';
 import styles from "../../styles/main.scss"
 import './Timeline.css';
 
