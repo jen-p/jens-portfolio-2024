@@ -4,15 +4,15 @@
     "title": "Cursor Party",
     "desc": "Experiments with Cursor",
     "link": "https://cursor-party-seven.vercel.app",
-    "hero": "/images/lhl/lhl2_hero.png",
+    "hero": "/images/experiments/cursor-party.png",
     "alt": "something"
   },
   {
     "id": "timeline",
     "title": "Jen's GoInvo Timeline",
     "desc": "A timeline of my work at GoInvo",
-    "link": "/timeline/index.html",
-    "hero": "/images/lhl/lhl2_hero.png",
+    "link": "/experiments/timeline/",
+    "hero": "/images/experiments/timeline.png",
     "alt": "something"
   }
 ]

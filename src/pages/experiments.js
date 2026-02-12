@@ -10,22 +10,27 @@ const Experiments = () => (
   <Layout>
     <div className={styles.wrapper}>
       <div className="container">
-
-        <div className="projectList">
-          {projectList.map((project) => {
-            return (
-              <ProjectCard
-                key={project.title}
-                link={project.link}
-                desc={project.desc}
-                hero={project.hero}
-                w={project.w}
-                h={project.h}
-                title={project.title}>
-              </ProjectCard>
-            )
-          })}
+        <div className="experiments">
+          <h1 className="pageTitle">Experiments</h1>
+          <p>Some fun doodles and projects I've been working on.</p>
+          <div className="projectList">
+            {projectList.map((project) => {
+              return (
+                <ProjectCard
+                  key={project.title}
+                  id={project.id}
+                  link={project.link}
+                  desc={project.desc}
+                  hero={project.hero}
+                  w={project.w}
+                  h={project.h}
+                  title={project.title}>
+                </ProjectCard>
+              )
+            })}
+          </div>
         </div>
+        
 
       </div>
     </div>
