@@ -1,0 +1,10 @@
+.icon {
+    display: inline-block;
+    object-fit: contain;;
+    &.linkedin {
+        background-image: url('../assets/icons/linkedin.svg');
+    }
+    &.github {
+        background-image: url('../assets/icons/github.svg');
+    }
+}
