@@ -1,32 +1,4 @@
-$bp-small: 420px;
-$bp-medium: 720px;
-$bp-large: 1080px;
-$bp-xl: 1400px;
-
-$mq-breakpoints: (
-  small: $bp-small,
-  medium: $bp-medium,
-  large: $bp-large,
-  extra-large: $bp-xl,
-);
-
-$font-family: 'Source Sans 3', 'Arial', sans-serif;
-$font-title: 'Source Serif 4', serif;
-$fs-sm: 1rem;
-$fs-base: 1.2rem;
-$fs-h1xl: 4rem;
-$fs-h1: 2.5rem;
-$fs-h2: 2rem;
-$fs-h3: 1.5rem;
-$lh-base: 1.625rem;
-$lh-md: 1.8rem;
-$lh-sm: 1.25rem;
-$lh-h1: 3.5rem;
-$lh-h2: 3rem;
-$lh-h3: 2rem;
-$fw-light: 300; //for title font
-$fw-normal: 400;
-$fw-bold: 600;
+@use 'variables' as *;
 
 body {
   font-family: $font-family;
@@ -42,6 +14,7 @@ h1, h2, h3 {
 h1 {
   font-size: $fs-h1;
   line-height: $lh-h1;
+  font-weight: $fw-bold;
   // @include mq($until: $bp-medium) {
   //   font-size: $fs-h2;
   //   line-height: $lh-h2;

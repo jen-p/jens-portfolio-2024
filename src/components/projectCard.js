@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -14,7 +15,7 @@ const ProjectCard = (props) => {
     return (
       <div className="projectCardWrapper">
         <div className="projectCard">
-          <Link href={link}>
+          <Link className="projectImage" href={link} >
             <div className="projectHero">
               <img src={hero} className="heroImage" alt={alt} />
             </div>

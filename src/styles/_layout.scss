@@ -1,14 +1,4 @@
-$bp-small: 420px;
-$bp-medium: 720px;
-$bp-large: 1080px;
-$bp-xl: 1400px;
-
-$mq-breakpoints: (
-  small: $bp-small,
-  medium: $bp-medium,
-  large: $bp-large,
-  extra-large: $bp-xl,
-);
+@use 'variables' as *;
 
 body {
 	position: relative;
@@ -50,9 +40,11 @@ header {
 		display: inline-block;
 	}
 	.name {
+		font-family: $font-title;
 		padding-top:10px;
-		a {
-		color: $gray;
+		a, a:visited, a:hover {
+			text-decoration: none;
+			color: $gray;
 		}
 	}
 	.header-nav {

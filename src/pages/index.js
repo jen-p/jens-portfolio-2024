@@ -12,6 +12,7 @@ const Whoami = () => (
       <div className="container">
 
         <div className="whatdo">
+          <div className="mb-4 h-1 w-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-600"></div>
           <h1>I am a product designer specializing in systems design for healthcare</h1>
         </div>
         <div className="projectList">
