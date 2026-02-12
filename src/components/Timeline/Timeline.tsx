@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Header from '../header';
 import Footer from '../footer';
-import styles from "../../styles/main.scss"
+import styles from '../../styles/main.scss'
 import './Timeline.css';
 
 interface TimelineDate {
