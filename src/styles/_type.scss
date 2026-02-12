@@ -68,9 +68,28 @@ a, a:visited {
       text-decoration: none;
       background: $light-purple;
     }
+    &.button-white {
+      background-color: #fff;
+      border: none;
+      color: $not-black;
+      &:hover {
+        box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
+		    transition: box-shadow ease .5s;
+      }
+    }
+    &.button-big {
+      display: block;
+      border-radius: 10px;
+    }
   }
 }
 
+span.block {
+  display: block;
+}
+.text-small {
+  font-size: $fs-sm;
+}
 a.external {
   text-decoration: underline;
 }

@@ -55,7 +55,9 @@ const Layout = (props) => {
         </Helmet>
         <Header />
         <div className={`app__body ${sourceSans.className} ${sourceSerif.className}`}>{props.children}</div>
-        <Contact />
+        <div className="container">
+          <Contact />
+        </div>
         <Footer />
       </div>
     )
