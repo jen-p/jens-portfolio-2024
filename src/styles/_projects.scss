@@ -33,8 +33,8 @@
 		p {
 			padding: 5px 0 10px 0;
 		}
-		&.living-health-lab,  {
-        	background-color: $light-blue; // or use a variable
+		&.living-health-lab {
+        	background-color: $light-blue;
 		}
 		&.all-of-us {
 			background-color: $light-purple2;
@@ -82,8 +82,8 @@
 				}
 			}
 		}
-		
     }
+
     .projectHero {
 		height: 100%;
 		aspect-ratio: 4 / 3;
@@ -186,9 +186,6 @@
 			}
 			.statLabel {
 				color: $gray;
-			}
-			.statValue {
-	
 			}
 		}
 	}
