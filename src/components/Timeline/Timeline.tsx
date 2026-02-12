@@ -19,17 +19,17 @@ interface TimelineProject {
 }
 
 const projectData: TimelineProject[] = [
-    {label: "MITRE SHR", color: "#005194", dates:[{startdate: new Date(2024,4,15), enddate: new Date(2024,9,16), effort: 1}]},
-    {label: "All of Us", color: "#262261", dates:[{startdate: new Date(2020,8,12), enddate: new Date(2023,11,31), effort: 1},
-        {startdate: new Date(2024,0,1), enddate: new Date(2024,9,1), effort: .25}
-    ]},
-    {label: "Onco Health", color: "#26A69A", dates:[{startdate: new Date(2020,4,18), enddate: new Date(2021,3,10), effort: 1}]},
-    {label: "CHPL", color: "#005596", dates:[{startdate: new Date(2019,11,19), enddate: new Date(2020,6,30), effort: 1}]},
-    {label: "Cotiviti AP Integrity", color: "#31006f", dates:[{startdate: new Date(2019,7,15), enddate: new Date(2020,0,31), effort: 1}]},
-    {label: "Concert.ai", color: "#F52B34", dates:[{startdate: new Date(2019,3,18), enddate: new Date(2019,7,15), effort: 1},
-        {startdate: new Date(2019,7,15), enddate: new Date(2019,11,15), effort: .5}]},
-    // {label: "Concerto", color: "#F52B34", dates:[{startdate: new Date(2019,2,18), enddate: new Date(2019,6,15), effort: 1}]},
-    {label: "OSHJ", color: "#BD3830", dates:[{startdate: new Date(2019,2,15), enddate: new Date(2019,2,18), "effort": 1}]},
+  {label: "MITRE SHR", color: "#005194", dates:[{startdate: new Date(2024,4,15), enddate: new Date(2024,9,16), effort: 1}]},
+  {label: "All of Us", color: "#262261", dates:[{startdate: new Date(2020,8,12), enddate: new Date(2023,11,31), effort: 1},
+      {startdate: new Date(2024,0,1), enddate: new Date(2024,9,1), effort: .25}
+  ]},
+  {label: "Onco Health", color: "#26A69A", dates:[{startdate: new Date(2020,4,18), enddate: new Date(2021,3,10), effort: 1}]},
+  {label: "CHPL", color: "#005596", dates:[{startdate: new Date(2019,11,19), enddate: new Date(2020,6,30), effort: 1}]},
+  {label: "Cotiviti AP Integrity", color: "#31006f", dates:[{startdate: new Date(2019,7,15), enddate: new Date(2020,0,31), effort: 1}]},
+  {label: "Concert.ai", color: "#F52B34", dates:[{startdate: new Date(2019,3,18), enddate: new Date(2019,7,15), effort: 1},
+      {startdate: new Date(2019,7,15), enddate: new Date(2019,11,15), effort: .5}]},
+  // {label: "Concerto", color: "#F52B34", dates:[{startdate: new Date(2019,2,18), enddate: new Date(2019,6,15), effort: 1}]},
+  {label: "OSHJ", color: "#BD3830", dates:[{startdate: new Date(2019,2,15), enddate: new Date(2019,2,18), "effort": 1}]},
   {label: "Concert.ai", color: "#F52B34", dates:[{startdate: new Date(2019,2,18), enddate: new Date(2019,6,15), effort: 1}]},
   {label: "Verscend", color: "#100699", dates:[{startdate: new Date(2017,11,7), enddate: new Date(2018,6,15), effort: 1}]},
   {label: "WuXi NextCODE Titan", color: "#67CCD8", dates:[{startdate: new Date(2017,7,16), enddate: new Date(2017,10,8), effort: 1}]},
