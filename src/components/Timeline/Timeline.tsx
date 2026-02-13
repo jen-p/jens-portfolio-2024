@@ -2,8 +2,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Header from '../header';
-import Footer from '../footer';
-import styles from '../../styles/main.scss'
 import './Timeline.css';
 
 interface TimelineDate {
@@ -171,7 +169,6 @@ const Timeline: React.FC = () => {
             <p>Scroll horizontally to explore • Click on a project bar for details</p>
           </div>
         </div>
-      <Footer />
     </div>
   );
 };
