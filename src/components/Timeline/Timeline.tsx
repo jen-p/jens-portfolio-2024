@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Header from '../header';
-import styles from './Timeline.css';
+import './Timeline.css';
 
 interface TimelineDate {
   startdate: Date;
@@ -96,7 +96,7 @@ const Timeline: React.FC = () => {
   }, [timelineWidth]);
 
   return (
-    <div className={styles.main}>
+    <div className="timeline-main">
       <Header />
     
         <div className="timeline-modern" role="region" aria-label="Project timeline">
