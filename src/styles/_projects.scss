@@ -6,6 +6,12 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	
+	@media only screen and (max-width: $bp-medium) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
     .projectCardWrapper {
 		width: 100%;
       	margin: 25px 0;
@@ -171,6 +177,10 @@
 	img {
 		width: 100%;
 		height: auto;
+		&.max-ht {
+			max-height: 450px;
+			width: auto;
+		}
 	}
 	.projectStats {
 		display: flex;
@@ -189,6 +199,12 @@
 			}
 		}
 	}
+	.frame-container {
+		margin: 0 auto;
+		&.lhl-frame {
+			max-width: 412px;
+		}
+	}
 	#references {
 		margin-top: 50px;
 		 a {
@@ -196,4 +212,5 @@
 			text-decoration: underline;
 		 }
 	}
+	
 }

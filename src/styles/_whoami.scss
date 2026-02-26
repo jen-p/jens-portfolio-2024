@@ -2,9 +2,10 @@
     margin-top: 80px;
 }
 
-.ethos, .skills, .edu {
+.section {
   h2 {
     margin-bottom: 20px;
+    margin-top: 0;
     line-height: 3rem;
   }
   ul {
@@ -13,5 +14,25 @@
     li {
         list-style: none;
     }
+  }
+}
+
+.pub {
+  .pub-item {
+    h4 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+}
+
+.contact-socials {
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-bottom: -5px;
   }
 }
