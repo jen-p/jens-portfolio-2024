@@ -17,7 +17,7 @@ interface TimelineProject {
 }
 
 const projectData: TimelineProject[] = [
-  {label: "Prolaio", color: "#FD5B50", dates:[{startdate: new Date(2026,2,3), enddate: new Date(2026,5,31),effort: 1}]},
+  {label: "Prolaio", color: "#FD5B50", dates:[{startdate: new Date(2026,2,3), enddate: new Date(2026,5,31), effort: 1}]},
   {label: "MITRE SHR", color: "#005194", dates:[{startdate: new Date(2024,4,15), enddate: new Date(2024,9,16), effort: 1}]},
   {label: "All of Us", color: "#262261", dates:[{startdate: new Date(2020,8,12), enddate: new Date(2023,11,31), effort: 1},
       {startdate: new Date(2024,0,1), enddate: new Date(2024,9,1), effort: .25}
