@@ -1,15 +1,5 @@
 [
   {
-    "id": "living-health-lab",
-    "title": "Your Health, In Your Hands",
-    "desc": "A digital evolution of the Living Health Lab for an intelligent and accessible daily health companion.",
-    "link": "/work/living-health-lab/",
-    "hero": "/images/lhl/lhl2_hero.png",
-    "alt": "Screens of the Living Health Lab app, showing a dashboard of health data and a list of health goals.",
-    "date": "Spring 2025",
-    "client": "GoInvo"
-  },
-  {
     "id": "all-of-us",
     "title": "National Research Program",
     "desc": "Research and design to enhance the experience of participating in a national research program.",
@@ -28,6 +18,16 @@
     "alt": "something",
     "date": "2020 - 2021",
     "client": "OncoHealth"
+  },
+  {
+    "id": "living-health-lab",
+    "title": "Your Health, In Your Hands",
+    "desc": "A digital evolution of the Living Health Lab for an intelligent and accessible daily health companion.",
+    "link": "/work/living-health-lab/",
+    "hero": "/images/lhl/lhl2_hero.png",
+    "alt": "Screens of the Living Health Lab app, showing a dashboard of health data and a list of health goals.",
+    "date": "Spring 2025",
+    "client": "GoInvo"
   },
   {
     "id": "diabetes-treatment-tools",
