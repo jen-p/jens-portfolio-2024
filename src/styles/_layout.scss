@@ -1,14 +1,4 @@
-$bp-small: 420px;
-$bp-medium: 720px;
-$bp-large: 1080px;
-$bp-xl: 1400px;
-
-$mq-breakpoints: (
-  small: $bp-small,
-  medium: $bp-medium,
-  large: $bp-large,
-  extra-large: $bp-xl,
-);
+@use 'variables' as *;
 
 body {
 	position: relative;
@@ -88,9 +78,11 @@ header {
 		display: inline-block;
 	}
 	.name {
+		font-family: $font-title;
 		padding-top:10px;
-		a {
-		color: $gray;
+		a, a:visited, a:hover {
+			text-decoration: none;
+			color: $gray;
 		}
 	}
 	.header-nav {
@@ -128,16 +120,66 @@ hr {
 		margin: 40px 0;
 }
 
+.experiments {
+	margin: 80px 0;
+}
+
 .whatdo {
 	margin: 15vh 0;
 	font-size: $fs-h1xl;
+
+	.bars {
+		width: 200px;
+		.bar {
+			display: inline-block;
+			border-radius: 5px;
+			height: 5px;
+			margin-right: 10px;
+		}
+		.bar1 {
+			width: 40%;
+			background-color: $teal;
+		}
+		.bar2 {
+			width: 10%;
+			background-color: $light-purple;
+		}
+		.bar3 {
+			width: 10%;
+			background-color: $light-teal;
+		}
+	}
 }
 
+img {
+	.w-full {}
+	.h-full {}
+}
+
+.inline-block {
+	display: inline-block;
+}
 .contactBox {
-	text-align: center;
-	background: $bg-light;
+	background: $light-teal;
 	padding: 1px 0 50px 0;
 	margin-top: 40px;
+	border-radius: 40px;
+	padding: 40px;
+	.left, .right {
+		display: inline-block;
+		width: 45%;
+		.button {
+			width: 100%;
+			margin: 30px;
+			
+			.icon {
+				border: solid red 1px;
+				height: 24px;
+				width: 24px;
+				margin-right: 0;
+			}
+		}
+	}
 }
 
 .backProjects {

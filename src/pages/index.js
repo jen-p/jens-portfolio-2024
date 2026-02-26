@@ -12,6 +12,7 @@ const Whoami = () => (
       <div className="container">
 
         <div className="whatdo">
+          <div className="bars"><div className="bar bar1"></div><div className="bar bar2"></div><div className="bar bar3"></div></div>
           <h1>I am a product designer specializing in systems design for healthcare</h1>
         </div>
         <div className="projectList">
@@ -19,6 +20,7 @@ const Whoami = () => (
             return (
               <ProjectCard
                 key={project.title}
+                id={project.id}
                 link={project.link}
                 desc={project.desc}
                 hero={project.hero}

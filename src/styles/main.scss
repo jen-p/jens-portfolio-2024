@@ -1,8 +1,9 @@
-@import 'color';
-@import 'type';
-@import 'layout';
-@import 'icons';
+@use 'variables' as *;
+@use 'color';
+@use 'type';
+@use 'layout';
+@use 'icons';
 
-@import 'projects';
-@import 'whoami';
-@import '404';
+@use 'projects';
+@use 'whoami';
+@use 'four-oh-four';

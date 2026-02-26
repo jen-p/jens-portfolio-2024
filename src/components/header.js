@@ -6,6 +6,7 @@ import Link from 'next/link'
 const Header = () => {
     const navItems = [
       { link: '/', title: 'Work' },
+      { link: '/experiments/', title: 'Experiments' },
       { link: '/whoami/', title: 'Who Am I?' }
     ]
 

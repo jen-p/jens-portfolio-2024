@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .projectList {
 	display: flex;
 	flex-direction: row;
@@ -11,17 +13,25 @@
 	}
 	
     .projectCardWrapper {
-		width: 48%;
+		width: 100%;
       	margin: 25px 0;
-		  @media only screen and (max-width: $bp-medium) {
-			width: 100%;
+		&:nth-child(even) {
+			.projectCard {
+				flex-direction: row-reverse;
+			}
 		}
-		
   	}
     .projectCard {
-		.projectHero {
-			margin-bottom: 15px;
+		display: flex;
+		flex-direction: row;
+		box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
+     	border-radius: 5px;
+		overflow: hidden;
+		padding: 0;
+		@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+			flex-direction: column;
 		}
+		
       	h2, p {
 			margin: 0;
 			padding: 0;
@@ -29,26 +39,92 @@
 		p {
 			padding: 5px 0 10px 0;
 		}
+		&.living-health-lab {
+        	background-color: $light-blue;
+		}
+		&.all-of-us {
+			background-color: $light-purple2;
+		}
+		&.oncology-prior-auths {
+			background-color: $light-teal2;
+		}
+		&.diabetes-treatment-tools {
+			background-color: $light-teal;
+		}
+		&.partners-irb {
+			background-color: $light-blue;
+		}
+		&.inspired-ehrs {
+			background-color: $light-purple2;
+		}
+		&.cursor-party {
+			background-color: $light-blue;
+		}
+		&.timeline {
+			background-color: $light-purple2;
+		}
+		.projectImage, .projectDeets {
+			display: inline-block;
+			width: 48%;
+			overflow: hidden;
+			@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+				display: block;
+				width: 100%;
+			}
+		}
+		.projectDeets {
+			vertical-align: top;
+			padding: 30px;
+			width: 50%;
+			@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+				width: 90%;
+			}
+			a {
+				color:$not-black;
+				font-weight: $fw-bold;
+				&:hover {
+					color:$teal;
+					text-decoration: none;
+				}
+			}
+		}
     }
+
     .projectHero {
-      	box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
-     	border-radius: 5px;
-		transition: box-shadow ease .5s;
+		height: 100%;
 		aspect-ratio: 4 / 3;
 		overflow: hidden;
 		object-fit: cover;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
+		transition: transform 0.3s ease-in-out;
+		padding: 0;
+		
 		&:hover {
-			box-shadow: 0 8px 8px 0 rgba(24,24,24,0.25);
-			transition: box-shadow ease .5s;
+			//box-shadow: 0 8px 8px 0 rgba(24,24,24,0.25);
+			//transition: box-shadow ease .5s;
+			transform: scale(1.05);
 		}
 		.heroImage {
 			height: 100%;
 			width: auto;
 		}
+		a {
+			display: block; // Add this
+			line-height: 0; // Add this
+		}
+		img {
+			display: block;
+			width: 100%;
+			height: 100%; // Add this
+			object-fit: cover; // Add this to maintain aspect ratio
+			transition: transform 0.3s ease-in-out;
+			
+			&:hover {
+				transform: scale(1.05);
+			}
+		}	
     }
   
 	&.cards {
@@ -120,9 +196,6 @@
 			}
 			.statLabel {
 				color: $gray;
-			}
-			.statValue {
-	
 			}
 		}
 	}
