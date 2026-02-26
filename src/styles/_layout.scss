@@ -163,7 +163,7 @@ img {
 	background: $light-teal;
 	padding: 1px 0 50px 0;
 	margin-top: 40px;
-	border-radius: 40px;
+	border-radius: 20px;
 	padding: 40px;
 	.left, .right {
 		display: inline-block;
@@ -173,10 +173,9 @@ img {
 			margin: 30px;
 			
 			.icon {
-				border: solid red 1px;
 				height: 24px;
 				width: 24px;
-				margin-right: 0;
+				margin-right: 10px;
 			}
 		}
 	}
