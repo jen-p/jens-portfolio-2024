@@ -14,7 +14,7 @@ const Whoami = () => (
         <div className="whatdo">
           <div className="bars"><div className="bar bar1"></div><div className="bar bar2"></div><div className="bar bar3"></div></div>
           <h1>I am a product designer specializing in systems design for healthcare</h1>
-          <p>With 15 years of experience designing complex clinical, research, and enterprise platforms, I work at the intersection of technology, health, and trust. I aim to bring clarity to fragmented ecosystems and messy problem spaces to better deliver quality and equitable care for all.</p>
+          <p>With 15 years of experience designing complex clinical, research, and enterprise platforms, I work at the intersection where technology, health, and human decision-making collide . I aim to bring clarity to fragmented ecosystems and messy problem spaces to better deliver quality and equitable care for all.</p>
         </div>
         <div className="projectList">
           {projectList.map((project) => {
