@@ -165,13 +165,24 @@ img {
 	margin-top: 40px;
 	border-radius: 20px;
 	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	@media only screen and (max-width: $bp-medium) {
+		flex-direction: column;
+	}
 	.left, .right {
 		display: inline-block;
 		width: 45%;
+		@media only screen and (max-width: $bp-medium) {
+			width: 100%;
+		}
 		.button {
 			width: 100%;
 			margin: 30px;
-			
+			@media only screen and (max-width: $bp-medium) {
+				width: 85%;
+				margin-left: 0;
+			}
 			.icon {
 				height: 24px;
 				width: 24px;
