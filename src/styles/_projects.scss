@@ -18,6 +18,9 @@
 		&:nth-child(even) {
 			.projectCard {
 				flex-direction: row-reverse;
+				@media only screen and (max-width: $bp-medium) {
+					flex-direction: column;
+				}
 			}
 		}
   	}
@@ -25,10 +28,10 @@
 		display: flex;
 		flex-direction: row;
 		box-shadow: 0 6px 6px 0 rgba(24,24,24,0.15);
-     	border-radius: 5px;
+     	border-radius: 15px;
 		overflow: hidden;
 		padding: 0;
-		@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+		@media only screen and (max-width: $bp-medium) {
 			flex-direction: column;
 		}
 		
@@ -67,7 +70,7 @@
 			display: inline-block;
 			width: 48%;
 			overflow: hidden;
-			@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+			@media only screen and (max-width: $bp-medium) {
 				display: block;
 				width: 100%;
 			}
@@ -76,7 +79,7 @@
 			vertical-align: top;
 			padding: 30px;
 			width: 50%;
-			@media only screen and (min-width: $bp-small) and (max-width: $bp-medium) {
+			@media only screen and (max-width: $bp-medium) {
 				width: 90%;
 			}
 			a {

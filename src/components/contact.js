@@ -17,33 +17,43 @@ const Contact = () => {
                 className="button button-white button-big"
                 >
                 <span className="inline-block">
+                    <span className="icon email"></span>
+                </span>
+                <span className="inline-block">
                     <span className="block">Email</span>
                     <span className="block text-small">jennifer.c.patel@gmail.com</span>
                 </span>
+                
+                
+                
+            </a>
+            <a
+                href="www.linkedin.com/in/jennifer-patel-sobus"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button-white button-big"
+                >
                 <span className="inline-block">
-                    <span className="icon email"></span>
+                    <span className="icon linkedin"></span>
                 </span>
-                
-                
+                <span className="inline-block">
+                    <span className="block">LinkedIn</span>
+                    <span className="block text-small">Connect with me</span>    
+                </span>
             </a>
             <a
-                href="www.linkedin.com/in/jennifer-patel-sobus"
+                href="https://github.com/jen-p"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button-white button-big"
                 >
-                <span className="block">LinkedIn</span>
-                <span className="block text-small">Connect with me</span>
-                <span className="icon linkedin"></span>
-            </a>
-            <a
-                href="www.linkedin.com/in/jennifer-patel-sobus"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button button-white button-big"
-                >
-                <span className="block">Github</span>
-                <span className="icon github"></span>
+                <span className="inline-block">
+                    <span className="icon github"></span>
+                </span>
+                <span className="inline-block">
+                    <span className="block">Github</span>
+                    <span className="block text-small">Check out my projects</span>
+                </span>
             </a>
         </div>
   </div>
