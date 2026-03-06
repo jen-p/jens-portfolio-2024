@@ -23,9 +23,6 @@ const Contact = () => {
                     <span className="block">Email</span>
                     <span className="block text-small">jennifer.c.patel@gmail.com</span>
                 </span>
-                
-                
-                
             </a>
             <a
                 href="www.linkedin.com/in/jennifer-patel-sobus"
@@ -38,7 +35,7 @@ const Contact = () => {
                 </span>
                 <span className="inline-block">
                     <span className="block">LinkedIn</span>
-                    <span className="block text-small">Connect with me</span>    
+                    <span className="block text-small">Connect with me</span>
                 </span>
             </a>
             <a
@@ -52,7 +49,6 @@ const Contact = () => {
                 </span>
                 <span className="inline-block">
                     <span className="block">Github</span>
-                    <span className="block text-small">Check out my projects</span>
                 </span>
             </a>
         </div>
