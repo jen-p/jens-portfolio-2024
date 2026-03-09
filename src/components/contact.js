@@ -39,7 +39,7 @@ const Contact = () => {
                 </span>
             </a>
             <a
-                href="www.linkedin.com/in/jennifer-patel-sobus"
+                href="https://github.com/jen-p"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button button-white button-big"
